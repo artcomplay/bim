@@ -2491,6 +2491,25 @@ Vue.component('galery-component', __webpack_require__(/*! ./components/GaleryCom
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+var elements = ['#head', '#leftbar', '#slider', '#infoblocks', '#shemework', '#workblock', '#partners', '#yandex', '#footer'];
+
+for (i = 0; i <= elements.length; i++) {
+  if ($(elements[i]).length) {
+    console.log('Element ' + elements[i] + ' exist');
+    var app = new Vue({
+      el: elements[i]
+    });
+  } else {
+    console.log('Element ' + elements[i] + ' not exist');
+  }
+}
+/*
+if ($("#head").length){
+    console.log('Element exist');
+} else {
+    console.log('Element not exist');
+}*/
+
 /*
 const app = new Vue({
     el: '#leftbar', 
@@ -2527,6 +2546,7 @@ const yandex = new Vue({
 const footer = new Vue({
     el: '#footer',
 });*/
+
 
 var yandexApi = '<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4fde5c801d2864ec6bd4221b600bbb9d9e7bf8d40abe18f892ec6af316168591&amp;width=500&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>';
 $('#yandex-map').append(yandexApi);

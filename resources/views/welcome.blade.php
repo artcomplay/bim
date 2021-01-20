@@ -67,47 +67,8 @@
             </div>
         </div>
 
-        <script src="{{ asset('js/app.js') }}"></script>
-
-        <script>
-            const app = new Vue({
-                el: '#leftbar', 
-            });
-
-            const slider = new Vue({
-                el: '#slider',
-            });
-
-            const infoblocks = new Vue({
-                el: '#infoblocks',
-            });
-
-            const shemework = new Vue({
-                el: '#shemework',
-            });
-
-            const head = new Vue({
-                el: '#head',
-            });
-
-            const workblock = new Vue({
-                el: '#workblock',
-            });
-
-            const partners = new Vue({
-                el: '#partners',
-            });
-
-            const yandex = new Vue({
-                el: '#yandex',
-            });
-
-            const footer = new Vue({
-                el: '#footer',
-            });
-        </script>
-
         
+        <script src="{{ asset('js/app.js') }}"></script>     
         <script src="{{ asset('js/ism-2.2.min.js') }}"></script>
         <script src="{{ asset('js/script.js') }}"></script>
 

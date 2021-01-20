@@ -40,6 +40,28 @@ Vue.component('galery-component', require('./components/GaleryComponent.vue').de
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+var elements = ['#head', '#leftbar', '#slider','#infoblocks','#shemework','#workblock','#partners','#yandex','#footer'];
+
+
+
+for(i = 0; i <= elements.length; i++){
+    
+    if ($(elements[i]).length){
+        console.log('Element ' + elements[i] + ' exist');
+        const app = new Vue({
+            el: elements[i], 
+        });
+    } else {
+        console.log('Element ' + elements[i] + ' not exist');
+    }
+}
+
+/*
+if ($("#head").length){
+    console.log('Element exist');
+} else {
+    console.log('Element not exist');
+}*/
 
 /*
 const app = new Vue({
@@ -77,7 +99,6 @@ const yandex = new Vue({
 const footer = new Vue({
     el: '#footer',
 });*/
-
 
 
 

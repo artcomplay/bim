@@ -54,26 +54,6 @@
         </div>
 
         <script src="{{ asset('js/app.js') }}"></script>
-
-        <script>
-            const galery = new Vue({
-                el: '#galery',
-            });
-
-            const head = new Vue({
-                el: '#head',
-            });
-
-            const yandex = new Vue({
-                el: '#yandex',
-            });
-
-            const footer = new Vue({
-                el: '#footer',
-            });
-
-        </script>
-
         <script src="{{ asset('js/galery.js') }}"></script>
         <script src="{{ asset('js/ism-2.2.min.js') }}"></script>
 
