@@ -43,6 +43,7 @@
                             <div class="container-fluid">
                                 <div class="market-info"><h1>Изготовление рекламных конструкций любой сложности</h1><img class="icons-front" src="image/icons/design-tools.png" alt=""></div>
                             </div>
+
                             <galery-component id="galery"></galery-component>
                             <yandex-component id="yandex"></yandex-component>
                         </div>

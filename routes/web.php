@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GaleryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,4 @@ Route::get('/home', function () {
     return view('welcome');
 });
 
-Route::get('/galery', function () {
-    return view('galery');
-});
+Route::get('galery', [GaleryController::class, 'get_photo_from_instagramm']);

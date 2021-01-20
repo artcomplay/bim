@@ -85,7 +85,7 @@
 <script>
     export default {
         mounted() {
-            console.log('Component footer mounted.')
+            console.log('Component galery mounted.')
         }
     }
 </script>
