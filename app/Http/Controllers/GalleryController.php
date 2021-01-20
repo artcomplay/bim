@@ -8,8 +8,7 @@ class GalleryController extends Controller
 {
     public function get_photo_from_instagramm()
     {
-        $photo_instafram = file_get_contents('https://www.instagram.com/brest_inter_market/');
-        $photo = $photo_instafram;
+        $photo = 1;
         return view('gallery',['photo' => $photo]);
     }
 }

@@ -1944,25 +1944,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component gallery mounted.');
@@ -38737,274 +38718,90 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("div", { staticClass: "gallery", attrs: { id: "gallery" } }, [
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", { attrs: { src: "storage/gallery/1-g.jpg", alt: "" } })
+      _c("p", { staticClass: "heading" }, [_vm._v("CSS Gallery")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "gallery-image" }, [
+        _c("div", { staticClass: "img-box" }, [
+          _c("img", { attrs: { src: "storage/gallery/1-g.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("div", { staticClass: "transparent-box" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("Library")]),
+              _vm._v(" "),
+              _c("p", { staticClass: "opacity-low" }, [
+                _vm._v("Architect Design")
+              ])
+            ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,studied",
-                alt: ""
-              }
-            })
+        _c("div", { staticClass: "img-box" }, [
+          _c("img", {
+            attrs: { src: "https://picsum.photos/350/250/?image=232", alt: "" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "transparent-box" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("Night Sky")]),
+              _vm._v(" "),
+              _c("p", { staticClass: "opacity-low" }, [_vm._v("Cinematic")])
+            ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,substance",
-                alt: ""
-              }
-            })
+        _c("div", { staticClass: "img-box" }, [
+          _c("img", {
+            attrs: { src: "https://picsum.photos/350/250/?image=431", alt: "" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "transparent-box" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("Tea Talk")]),
+              _vm._v(" "),
+              _c("p", { staticClass: "opacity-low" }, [_vm._v("Composite")])
+            ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,choose",
-                alt: ""
-              }
-            })
+        _c("div", { staticClass: "img-box" }, [
+          _c("img", {
+            attrs: { src: "https://picsum.photos/350/250?image=474", alt: "" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "transparent-box" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("Road")]),
+              _vm._v(" "),
+              _c("p", { staticClass: "opacity-low" }, [_vm._v("Landscape")])
+            ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,past",
-                alt: ""
-              }
-            })
+        _c("div", { staticClass: "img-box" }, [
+          _c("img", {
+            attrs: { src: "https://picsum.photos/350/250?image=344", alt: "" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "transparent-box" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("Sea")]),
+              _vm._v(" "),
+              _c("p", { staticClass: "opacity-low" }, [_vm._v("Cityscape")])
+            ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,lamp",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,yet",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,eight",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,crew",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,event",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,instrument",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,practical",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,pass",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,bigger",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,number",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,feature",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,line",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,railroad",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,pride",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,too",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,bottle",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,base",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,cell",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,bag",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "gallery-item" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("img", {
-              attrs: {
-                src: "https://source.unsplash.com/random/?tech,card",
-                alt: ""
-              }
-            })
+        _c("div", { staticClass: "img-box" }, [
+          _c("img", {
+            attrs: { src: "https://picsum.photos/350/250?image=494", alt: "" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "transparent-box" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("Vintage")]),
+              _vm._v(" "),
+              _c("p", { staticClass: "opacity-low" }, [_vm._v("Cinematic")])
+            ])
           ])
         ])
       ])

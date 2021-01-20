@@ -55,8 +55,5 @@
         </div>
 
         <script src="{{ asset('js/app.js') }}"></script>
-        <script src="{{ asset('js/galery.js') }}"></script>
-        <script src="{{ asset('js/ism-2.2.min.js') }}"></script>
-
     </body>
 </html>

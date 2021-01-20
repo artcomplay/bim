@@ -1,91 +1,72 @@
 <template>
-    <div>
-
-        <div class="gallery" id="gallery">
-            <div class="gallery-item">
-                <div class="content"><img src="storage/gallery/1-g.jpg" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,studied" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,substance" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,choose" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,past" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,lamp" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,yet" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,eight" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,crew" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,event" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,instrument" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,practical" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,pass" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,bigger" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,number" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,feature" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,line" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,railroad" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,pride" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,too" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,bottle" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,base" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,cell" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,bag" alt=""></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,card" alt=""></div>
-            </div>
+<div>
+  <p class="heading">CSS Gallery</p>
+  <div class="gallery-image">
+    <div class="img-box">
+      <img src="storage/gallery/1-g.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Library</p>
+          <p class="opacity-low">Architect Design</p>
         </div>
+      </div> 
     </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250/?image=232" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Night Sky</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250/?image=431" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Tea Talk</p>
+          <p class="opacity-low">Composite</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=474" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Road</p>
+          <p class="opacity-low">Landscape</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=344" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Sea</p>
+          <p class="opacity-low">Cityscape</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=494" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
    
 </template>
 
 <script>
     export default {
         mounted() {
-            console.log('Component gallery mounted.')
+            console.log('Component gallery mounted.');
         }
     }
 </script>
