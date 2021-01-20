@@ -10,7 +10,7 @@
                 <div class="col-12 menu-horizontal">
                     <ul>
                         <li class="h-list"><a href="/home" class="menu-home">ГЛАВНАЯ</a></li>
-                        <li class="h-list"><a href="/galery" class="menu-portfolio">ПОРТФОЛИО</a></li>
+                        <li class="h-list"><a href="/gallery" class="menu-portfolio">ПОРТФОЛИО</a></li>
                         <li class="h-list"><a href="/about-us" class="menu-company">О КОМПАНИИ</a></li>
                         <li class="h-list"><a href="/contacts" class="menu-contacts">КОНТАКТЫ</a></li>
                     </ul>

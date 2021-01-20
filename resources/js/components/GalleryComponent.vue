@@ -3,7 +3,7 @@
 
         <div class="gallery" id="gallery">
             <div class="gallery-item">
-                <div class="content"><img src="https://source.unsplash.com/random/?tech,care" alt=""></div>
+                <div class="content"><img src="storage/gallery/1-g.jpg" alt=""></div>
             </div>
             <div class="gallery-item">
                 <div class="content"><img src="https://source.unsplash.com/random/?tech,studied" alt=""></div>
@@ -85,7 +85,7 @@
 <script>
     export default {
         mounted() {
-            console.log('Component galery mounted.')
+            console.log('Component gallery mounted.')
         }
     }
 </script>

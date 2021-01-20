@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\GaleryController;
+use App\Http\Controllers\GalleryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,4 +22,9 @@ Route::get('/home', function () {
     return view('welcome');
 });
 
-Route::get('galery', [GaleryController::class, 'get_photo_from_instagramm']);
+Route::get('gallery', [GalleryController::class, 'get_photo_from_instagramm']);
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

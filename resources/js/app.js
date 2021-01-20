@@ -32,7 +32,7 @@ Vue.component('workblock-component', require('./components/WorkblockComponent.vu
 Vue.component('footer-component', require('./components/FooterComponent.vue').default);
 Vue.component('partners-component', require('./components/PartnersComponent.vue').default);
 Vue.component('leftbar-component', require('./components/LeftbarComponent.vue').default);
-Vue.component('galery-component', require('./components/GaleryComponent.vue').default);
+Vue.component('gallery-component', require('./components/GalleryComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -40,7 +40,7 @@ Vue.component('galery-component', require('./components/GaleryComponent.vue').de
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-var elements = ['#head', '#leftbar', '#slider','#infoblocks','#shemework','#workblock','#partners','#yandex','#footer'];
+var elements = ['#head', '#leftbar', '#slider','#infoblocks','#shemework','#workblock','#partners','#yandex','#footer', '#gallery'];
 
 
 
