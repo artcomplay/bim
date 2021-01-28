@@ -1,87 +1,96 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/*
+
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77). 
+        
+The 'supports' rule will only run if your browser supports CSS grid.
+
+Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+	/* Base font size */
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
 body {
-  font-family: Raleway;
-  background-color: #202125;
+	min-height: 100vh;
+	background-color: #fafafa;
+}
+
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
 }
 
 .heading {
-    text-align: center;
-    font-size: 2.0em;
-    letter-spacing: 1px;
-    padding: 40px;
-    color: white;
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
 }
 
 .gallery-image {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
 }
 
-.gallery-image img {
-  height: 250px;
-  width: 350px;
-  transform: scale(1.0);
-  transition: transform 0.4s ease;
+.gallery-image:hover {
+	transform: scale(1.15);
 }
 
-.img-box {
-  box-sizing: content-box;
-  margin: 10px;
-  height: 250px;
-  width: 350px;
-  overflow: hidden;
-  display: inline-block;
-  color: white;
-  position: relative;
-  background-color: white;
-}
+/*
 
-.caption {
-  position: absolute;
-  bottom: 5px;
-  left: 20px;
-  opacity: 0.0;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
+The following rule will only run if your browser supports CSS grid.
 
-.transparent-box {
-  height: 250px;
-  width: 350px;
-  background-color:rgba(0, 0, 0, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: background-color 0.3s ease;
-}
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
 
-.img-box:hover img { 
-  transform: scale(1.1);
-}
+*/
 
-.img-box:hover .transparent-box {
-  background-color:rgba(0, 0, 0, 0.5);
-}
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
 
-.img-box:hover .caption {
-  transform: translateY(-20px);
-  opacity: 1.0;
-}
-
-.img-box:hover {
-  cursor: pointer;
-}
-
-.caption > p:nth-child(2) {
-  font-size: 0.8em;
-}
-
-.opacity-low {
-  opacity: 0.5;
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
 }

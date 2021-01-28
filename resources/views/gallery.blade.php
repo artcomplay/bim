@@ -35,7 +35,7 @@
             <div class="col-12" id="head">
                 <header-component></header-component>
 
-                <div class="main-content container">
+                <div class="main-content container" style="height: 100%;">
                     <div class="row main-content-row">
 
 
@@ -44,10 +44,17 @@
                                 <div class="market-info"><h1>Изготовление рекламных конструкций любой сложности</h1><img class="icons-front" src="image/icons/design-tools.png" alt=""></div>
                             </div>
 
-                            <gallery-component id="gallery"></gallery-component>
-                            <yandex-component id="yandex"></yandex-component>
+                            <div class="container">
+                                <div class="gallery">
+                                    @foreach($photo as $photo_src)
+                                        <div class="gallery-item">
+                                            <img class="gallery-image" src="storage/gallery/{{ $photo_src }}" alt="">
+                                        </div>
+                                    @endforeach
+                                </div>
+                            </div>
+                            <yandex-component id="yandex" style="margin-top: 106px; margin-left: 44.6%;"></yandex-component>
                         </div>
-
                     </div>
                 </div>
                 <footer-component id="footer"></footer-component>

@@ -94,20 +94,7 @@ function dateTime(){
 }
 
 dateTime();
-/*
-$( window ).scroll(function() {
-    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    if(scrollTop > 200){
-        $('.menu-horizontal').css('position','fixed').css('left','50px');
-        $('.h-list').css('display','block').css('margin-bottom','40px');
-        $('.logo-img').css('position','fixed').css('left','40px').css('margin-top','20px').css('width','80px').css('margin-left','0%');
 
 
-    } else if(scrollTop <= 200){
-        $('.menu-horizontal').css('position','inherit').css('left','0px');
-        $('.h-list').css('display','inline').css('margin-bottom','0px');
-        $('.logo-img').css('position','absolute').css('margin-left','-58%').css('margin-top','0px').css('width','150px').css('left','0px');
 
-    }
-    console.log(scrollTop);
-});*/
+

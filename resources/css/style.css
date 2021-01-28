@@ -23,9 +23,10 @@ a:hover{
 }
 
 .main-content{
-    height: 2495px;
+    height: 100%;
     border-radius: 5px;
     background: #dcdcdc;
+    padding-bottom: 225px !important;
 }
 
 .footer-content{
@@ -52,7 +53,7 @@ a:hover{
 .bim-info{
     color: #dcdcdc;
     font-weight: 400;
-    top: -7px !important;
+    top: -1px !important;
     font-size: 13px;
 }
 
@@ -147,7 +148,7 @@ a:hover{
 
 .logo-img{
     position: absolute;
-    margin-left: -58%;
+    margin-left: -75%;
     margin-top: 0px;
     width: 150px;
 }
@@ -173,7 +174,7 @@ a:hover{
 .left-bar-content{
     margin-top: 20px;
     border-right: 1px solid gray;
-    height: 98%;
+    height: 108.5%;
 }
 
 .services{
@@ -365,7 +366,7 @@ a.leave-request:hover{
 }
 
 .header-contacts{
-    margin-top: 40px;
+    margin-top: 65px;
     line-height: 1.7em;
 }
 
@@ -382,6 +383,9 @@ a.leave-request:hover{
 .header-contacts ul li a{
     color: #ffd3ab;
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
 }
 
 .header-contacts li{
@@ -436,7 +440,7 @@ a.leave-request:hover{
 .yandex-map{
     position: absolute;
     margin-top: 80px;
-    margin-left: 38.6%;
+    margin-left: 30.6%;
     padding: 4px;
     background: linear-gradient(45deg, #866f51, #3c2b13);
     border-radius: 3px;
@@ -484,7 +488,7 @@ a.leave-request:hover{
 }
 
 .left-center{
-    height: 75.8%;
+    height: 74.8%;
     padding: 0px;
 }
 

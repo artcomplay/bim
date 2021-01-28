@@ -32,7 +32,6 @@ Vue.component('workblock-component', require('./components/WorkblockComponent.vu
 Vue.component('footer-component', require('./components/FooterComponent.vue').default);
 Vue.component('partners-component', require('./components/PartnersComponent.vue').default);
 Vue.component('leftbar-component', require('./components/LeftbarComponent.vue').default);
-Vue.component('gallery-component', require('./components/GalleryComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -40,7 +39,7 @@ Vue.component('gallery-component', require('./components/GalleryComponent.vue').
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-var elements = ['#head', '#leftbar', '#slider','#infoblocks','#shemework','#workblock','#partners','#yandex','#footer', '#gallery'];
+var elements = ['#head', '#leftbar', '#slider','#infoblocks','#shemework','#workblock','#partners','#yandex','#footer'];
 
 
 
@@ -55,51 +54,6 @@ for(i = 0; i <= elements.length; i++){
         console.log('Element ' + elements[i] + ' not exist');
     }
 }
-
-/*
-if ($("#head").length){
-    console.log('Element exist');
-} else {
-    console.log('Element not exist');
-}*/
-
-/*
-const app = new Vue({
-    el: '#leftbar', 
-});
-
-const slider = new Vue({
-    el: '#slider',
-});
-
-const infoblocks = new Vue({
-    el: '#infoblocks',
-});
-
-const shemework = new Vue({
-    el: '#shemework',
-});
-
-const head = new Vue({
-    el: '#head',
-});
-
-const workblock = new Vue({
-    el: '#workblock',
-});
-
-const partners = new Vue({
-    el: '#partners',
-});
-
-const yandex = new Vue({
-    el: '#yandex',
-});
-
-const footer = new Vue({
-    el: '#footer',
-});*/
-
 
 
 var yandexApi = '<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4fde5c801d2864ec6bd4221b600bbb9d9e7bf8d40abe18f892ec6af316168591&amp;width=500&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>';
