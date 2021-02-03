@@ -2,14 +2,14 @@
     <div class="header-content container">
         <div class="row">
             <div class="col-9 no-gutters">
-                <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
                     <img src="image/logo.png" alt="БрестИнтерМаркет" class="logo-img">
                 </div>
                     <h2 class="bim col-12">BrestInterMarket</h2>
                     <h6 class="bim-info col-12">Изготовление и монтаж наружной рекламы</h6>
                 <div class="col-12 menu-horizontal">
                     <ul>
-                        <li class="h-list"><a href="/home" class="menu-home">ГЛАВНАЯ</a></li>
+                        <li class="h-list"><a href="/" class="menu-home">ГЛАВНАЯ</a></li>
                         <li class="h-list"><a href="/gallery" class="menu-portfolio">ПОРТФОЛИО</a></li>
                         <li class="h-list"><a href="/about-us" class="menu-company">О КОМПАНИИ</a></li>
                         <li class="h-list"><a href="/contacts" class="menu-contacts">КОНТАКТЫ</a></li>
@@ -17,7 +17,7 @@
                 </div>
             </div>
 
-            <div class="col-3 no-gutters container-fluid header-contacts">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 no-gutters container-fluid header-contacts">
                 <ul>
                     <li>
                         <span class="icon-adres">

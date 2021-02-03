@@ -38684,7 +38684,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-12 menu-horizontal" }, [
         _c("ul", [
           _c("li", { staticClass: "h-list" }, [
-            _c("a", { staticClass: "menu-home", attrs: { href: "/home" } }, [
+            _c("a", { staticClass: "menu-home", attrs: { href: "/" } }, [
               _vm._v("ГЛАВНАЯ")
             ])
           ]),

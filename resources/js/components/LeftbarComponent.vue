@@ -40,6 +40,8 @@
 
             <div class="elfsight-app-2e9a99e9-90c6-4571-8d27-e1bde002305d"></div>
         </div>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-b09a6443-ca96-4cc9-b36e-215680fa1a86"></div>
         <div class="row left-adres">
             <ul>
                 <li>Брест, Карла Маркса 37</li>

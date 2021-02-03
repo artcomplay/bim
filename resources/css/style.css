@@ -193,11 +193,11 @@ a:hover{
 }
 
 .vertical-menu{
-    height: 380px;
-    background:  linear-gradient(to right, white, whitesmoke, rgb(238, 238, 238));
+    height: auto;
+    background: linear-gradient(to right, white, whitesmoke, rgb(238, 238, 238));
     border-radius: 3px;
     margin-top: 25px;
-    padding: 8% 2% 2% 2%;
+    padding: 8% 2% 5% 2%;
     box-shadow: 0px 0px 2px #cacaca;
 }
 
@@ -207,7 +207,7 @@ a:hover{
 }
 
 .list-item a{
-    font-size: 20px;
+    font-size: 18px;
     color: #2c2c2c !important;
     font-weight: 300;
     transition: 0.1s;
@@ -333,10 +333,11 @@ a.leave-request:hover{
 }
 
 .about-work p{
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif; */
     font-size: 12px;
     font-weight: 400;
     text-align: center;
+    padding: 15px;
 }
 
 .scheme-work div{
@@ -346,22 +347,22 @@ a.leave-request:hover{
 
 .scheme-work p{
     margin-left: 20px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 500;
     font-size: 14px;
 }
 
 .main-text-container p{
-    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     border: 1px solid #d0d0d0;
-    padding: 30px;
+    padding: 15px;
     border-radius: 5px;
     background: linear-gradient(to right, white, whitesmoke, rgb(238, 238, 238));
     font-weight: 500;
     text-indent: 15px;
     text-align: left;
     line-height: 1.7em;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -383,7 +384,7 @@ a.leave-request:hover{
 .header-contacts ul li a{
     color: #ffd3ab;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-size: 14px;
     line-height: 1.7em;
 }
@@ -591,7 +592,7 @@ a.leave-request:hover{
 
 .back p {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
     font-weight: 500;
     font-size: 12px;
     margin-top: 1px;
@@ -606,7 +607,7 @@ a.leave-request:hover{
 
 .icons-front{
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 .point{
@@ -625,7 +626,7 @@ a.leave-request:hover{
     border-radius: 3px;
     background: linear-gradient(to right, white, whitesmoke, rgb(238, 238, 238));
     text-align: center;
-    font-family: 'Montserrat';
+    /* font-family: 'Montserrat'; */
     font-size: 14px;
     font-weight: 500;
     color: #786246;
@@ -660,4 +661,10 @@ a.leave-request:hover{
 }
 
 /*---------------------*/
+
+td span{
+    font: normal 10px Arial;
+    color: #000000;
+    margin-left: 0px;
+}
 
