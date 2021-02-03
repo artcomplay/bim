@@ -468,6 +468,9 @@ a.leave-request:hover{
     display: none !important;
 }
 
+.main-left{
+    height: 97%;
+}
 
 .footer-menu p{
     margin-top: 0;
@@ -489,8 +492,12 @@ a.leave-request:hover{
 }
 
 .left-center{
-    height: 74.8%;
+    height: max-content;
     padding: 0px;
+}
+
+#instagramm{
+    margin-bottom: 20px;
 }
 
 .card-p{

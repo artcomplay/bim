@@ -2171,6 +2171,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component leftbar mounted.');
@@ -2402,6 +2415,8 @@ for (i = 0; i <= elements.length; i++) {
 
 var yandexApi = '<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4fde5c801d2864ec6bd4221b600bbb9d9e7bf8d40abe18f892ec6af316168591&amp;width=500&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>';
 $('#yandex-map').append(yandexApi);
+var instagrammWidget = '<script src="https://apps.elfsight.com/p/platform.js" defer></script>';
+$('#instagramm').append(instagrammWidget);
 
 /***/ }),
 
@@ -38515,7 +38530,10 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-3 no-gutters container-fluid header-contacts" },
+        {
+          staticClass:
+            "col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 no-gutters container-fluid header-contacts"
+        },
         [
           _c("ul", [
             _c("li", [
@@ -38668,12 +38686,16 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-9 no-gutters" }, [
-      _c("div", { staticClass: "col-sm-12 col-md-4 col-lg-3 col-xl-3" }, [
-        _c("img", {
-          staticClass: "logo-img",
-          attrs: { src: "image/logo.png", alt: "БрестИнтерМаркет" }
-        })
-      ]),
+      _c(
+        "div",
+        { staticClass: "col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3" },
+        [
+          _c("img", {
+            staticClass: "logo-img",
+            attrs: { src: "image/logo.png", alt: "БрестИнтерМаркет" }
+          })
+        ]
+      ),
       _vm._v(" "),
       _c("h2", { staticClass: "bim col-12" }, [_vm._v("BrestInterMarket")]),
       _vm._v(" "),
@@ -39123,137 +39145,134 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "left-bar-content container-fluid" }, [
-      _c("div", { staticClass: "services" }, [
-        _vm._v("\n        Услуги\n    ")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "vertical-menu" }, [
-        _c("ul", { staticClass: "menu-list" }, [
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Объемные буквы")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Световые короба")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Реклама на авто")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Таблички и вывески")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Стенды информации")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Интерьерная реклама")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Штендеры")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Оклейка витрин и окон")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Указатели и пилоны")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [_vm._v("Таблички на дом")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "list-item" }, [
-            _c("a", { attrs: { href: "" } }, [
-              _vm._v("Широкоформатная  печать")
+      _c("div", { staticClass: "main-left" }, [
+        _c("div", { staticClass: "services" }, [
+          _vm._v("\n            Услуги\n        ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "vertical-menu" }, [
+          _c("ul", { staticClass: "menu-list" }, [
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [_vm._v("Объемные буквы")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [_vm._v("Световые короба")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [_vm._v("Реклама на авто")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [_vm._v("Таблички и вывески")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [_vm._v("Стенды информации")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [_vm._v("Интерьерная реклама")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [_vm._v("Штендеры")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [
+                _vm._v("Оклейка витрин и окон")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [_vm._v("Указатели и пилоны")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [_vm._v("Таблички на дом")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "" } }, [
+                _vm._v("Широкоформатная  печать")
+              ])
             ])
           ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("hr"),
-      _vm._v(" "),
-      _c("div", { staticClass: "container-fluid leave-request" }, [
-        _c("a", { attrs: { href: "/leave-request" } }, [
-          _vm._v("Оставить заявку")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "left-center container-fluid nu-gutters" }, [
-        _c("div", { staticClass: "date-time" }, [
-          _c("div", { attrs: { id: "dates" } }),
-          _vm._v(" "),
-          _c("div", { attrs: { id: "times" } })
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "weather" }, [
-          _c(
-            "a",
-            {
-              attrs: {
-                href:
-                  "https://clck.yandex.ru/redir/dtype=stred/pid=7/cid=1228/*https://yandex.by/pogoda/153",
-                target: "_blank"
-              }
-            },
-            [
-              _c("img", {
-                attrs: {
-                  src: "https://info.weather.yandex.net/153/2.ru.png?domain=by",
-                  border: "0",
-                  alt: "Яндекс.Погода"
-                }
-              }),
-              _c("img", {
-                attrs: {
-                  width: "1",
-                  height: "1",
-                  src:
-                    "https://clck.yandex.ru/click/dtype=stred/pid=7/cid=1227/*https://img.yandex.ru/i/pix.gif",
-                  alt: "",
-                  border: "0"
-                }
-              })
-            ]
-          )
-        ]),
+        _c("hr"),
         _vm._v(" "),
-        _c("div", { staticClass: "money-info-block" }, [
-          _c("div", { staticClass: "money-info" }, [
-            _c("iframe", {
-              attrs: {
-                frameborder: "0",
-                height: "131",
-                marginheight: "0",
-                marginwidth: "0",
-                scrolling: "no",
-                src: "https://admin.myfin.by/outer/informer/brest/full",
-                width: "100%"
-              }
-            })
+        _c("div", { staticClass: "container-fluid leave-request" }, [
+          _c("a", { attrs: { href: "/leave-request" } }, [
+            _vm._v("Оставить заявку")
           ])
         ]),
         _vm._v(" "),
+        _c("div", { staticClass: "left-center container-fluid nu-gutters" }, [
+          _c("div", { staticClass: "date-time" }, [
+            _c("div", { attrs: { id: "dates" } }),
+            _vm._v(" "),
+            _c("div", { attrs: { id: "times" } })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "weather" }, [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href:
+                    "https://clck.yandex.ru/redir/dtype=stred/pid=7/cid=1228/*https://yandex.by/pogoda/153",
+                  target: "_blank"
+                }
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "https://info.weather.yandex.net/153/2.ru.png?domain=by",
+                    border: "0",
+                    alt: "Яндекс.Погода"
+                  }
+                }),
+                _c("img", {
+                  attrs: {
+                    width: "1",
+                    height: "1",
+                    src:
+                      "https://clck.yandex.ru/click/dtype=stred/pid=7/cid=1227/*https://img.yandex.ru/i/pix.gif",
+                    alt: "",
+                    border: "0"
+                  }
+                })
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", {
+            staticClass: "elfsight-app-2e9a99e9-90c6-4571-8d27-e1bde002305d"
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { attrs: { id: "instagramm" } }),
+        _vm._v(" "),
         _c("div", {
-          staticClass: "elfsight-app-2e9a99e9-90c6-4571-8d27-e1bde002305d"
+          staticClass: "elfsight-app-b09a6443-ca96-4cc9-b36e-215680fa1a86"
         })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "row left-adres" }, [
-        _c("ul", [
-          _c("li", [_vm._v("Брест, Карла Маркса 37")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("reklama_bim@tut.by")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("375 (33) 340-58-09")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("8 (0162) 21-65-09")])
+      _c("div", { staticClass: "bottom-left" }, [
+        _c("div", { staticClass: "row left-adres" }, [
+          _c("ul", [
+            _c("li", [_vm._v("Брест, Карла Маркса 37")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("reklama_bim@tut.by")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("375 (33) 340-58-09")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("8 (0162) 21-65-09")])
+          ])
         ])
       ])
     ])

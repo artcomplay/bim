@@ -59,3 +59,8 @@ for(i = 0; i <= elements.length; i++){
 var yandexApi = '<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4fde5c801d2864ec6bd4221b600bbb9d9e7bf8d40abe18f892ec6af316168591&amp;width=500&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>';
 
 $('#yandex-map').append(yandexApi);
+
+
+var instagrammWidget = '<script src="https://apps.elfsight.com/p/platform.js" defer></script>';
+
+$('#instagramm').append(instagrammWidget);
