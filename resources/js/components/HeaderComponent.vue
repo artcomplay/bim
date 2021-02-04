@@ -1,7 +1,7 @@
 <template>
     <div class="header-content container">
         <div class="row">
-            <div class="col-9 no-gutters">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 no-gutters">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
                     <img src="image/logo.png" alt="БрестИнтерМаркет" class="logo-img">
                 </div>

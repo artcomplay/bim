@@ -32,16 +32,16 @@
         </div>
 
         <div class="bg">
-            <div class="col-12" id="head">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="head">
                 <header-component></header-component>
 
                 <div class="main-content container">
                     <div class="row main-content-row">
-                        <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3" style="padding-right: 0px;">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3" id="left-space" style="padding-right: 0px;">
                             <leftbar-component id="leftbar"></leftbar-component>
                         </div>
 
-                        <div class="col-sm-12 col-md-8 col-lg-9 col-xl-9" style="padding-left: 0px;">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9" id="main-space" style="padding-left: 0px;">
 
                             <div class="container-fluid">
                                 <div class="market-info"><h1>Изготовление рекламных конструкций любой сложности</h1><img class="icons-front" src="image/icons/design-tools.png" alt=""></div>

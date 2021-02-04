@@ -2423,7 +2423,7 @@ for (i = 0; i <= elements.length; i++) {
 }
 
 var yandexApi = '<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4fde5c801d2864ec6bd4221b600bbb9d9e7bf8d40abe18f892ec6af316168591&amp;width=500&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>';
-$('#yandex-map').append(yandexApi);
+var yandexApiMobile = '<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4fde5c801d2864ec6bd4221b600bbb9d9e7bf8d40abe18f892ec6af316168591&amp;width=292&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>';
 var instagrammWidget = '<script src="https://apps.elfsight.com/p/platform.js" defer></script>';
 $('#instagramm').append(instagrammWidget);
 var screenWidth = $(window).width();
@@ -2440,12 +2440,25 @@ if (screenWidth < 1024) {
   $('.header-contacts').remove();*/
   $('.menu-horizontal ul li').css('display', 'grid');
   $('.header-content').css('height', 'auto');
-  var yandexMap = $('.yandex-map');
-  $('.yandex-map').remove();
-  var iconsFont = $('.icons-front');
-  $('.icons-front').remove();
+  /*let yandexMap = $('.yandex-map');
+  $('.yandex-map').remove();*/
+
   var leftAdres = $('.left-adres');
   $('.left-adres').remove();
+  /*$('.icons-front').removeClass('icons-front').addClass('icons-mobile');*/
+
+  $('#left-space').css('padding-right', '15px');
+  $('#main-space').css('padding-left', '15px');
+  $('.bim').css('padding-top', '45px').css('margin-left', '90px').css('font-size', '25px');
+  $('.logo-img').css('margin-left', '0%').css('width', '95px');
+  $('.bim-info').css('margin-left', '32px');
+  $('hr').remove();
+  $('.vertical-menu').css('margin-bottom', '20px');
+  $('#yandex-map').append(yandexApiMobile);
+  $('.yandex-map').css('position', 'relative').css('margin-top', '30px').css('margin-left', '15px').css('margin-right', '15px');
+  $('.footer-menu').children('ul').css('display', 'grid');
+} else if (screenWidth > 1024) {
+  $('#yandex-map').append(yandexApi);
 }
 
 /***/ }),
@@ -38712,58 +38725,64 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-9 no-gutters" }, [
-      _c(
-        "div",
-        { staticClass: "col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3" },
-        [
-          _c("img", {
-            staticClass: "logo-img",
-            attrs: { src: "image/logo.png", alt: "БрестИнтерМаркет" }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c("h2", { staticClass: "bim col-12" }, [_vm._v("BrestInterMarket")]),
-      _vm._v(" "),
-      _c("h6", { staticClass: "bim-info col-12" }, [
-        _vm._v("Изготовление и монтаж наружной рекламы")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-12 menu-horizontal" }, [
-        _c("ul", [
-          _c("li", { staticClass: "h-list" }, [
-            _c("a", { staticClass: "menu-home", attrs: { href: "/" } }, [
-              _vm._v("ГЛАВНАЯ")
+    return _c(
+      "div",
+      {
+        staticClass: "col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 no-gutters"
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3" },
+          [
+            _c("img", {
+              staticClass: "logo-img",
+              attrs: { src: "image/logo.png", alt: "БрестИнтерМаркет" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("h2", { staticClass: "bim col-12" }, [_vm._v("BrestInterMarket")]),
+        _vm._v(" "),
+        _c("h6", { staticClass: "bim-info col-12" }, [
+          _vm._v("Изготовление и монтаж наружной рекламы")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-12 menu-horizontal" }, [
+          _c("ul", [
+            _c("li", { staticClass: "h-list" }, [
+              _c("a", { staticClass: "menu-home", attrs: { href: "/" } }, [
+                _vm._v("ГЛАВНАЯ")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "h-list" }, [
+              _c(
+                "a",
+                { staticClass: "menu-portfolio", attrs: { href: "/gallery" } },
+                [_vm._v("ПОРТФОЛИО")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "h-list" }, [
+              _c(
+                "a",
+                { staticClass: "menu-company", attrs: { href: "/about-us" } },
+                [_vm._v("О КОМПАНИИ")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "h-list" }, [
+              _c(
+                "a",
+                { staticClass: "menu-contacts", attrs: { href: "/contacts" } },
+                [_vm._v("КОНТАКТЫ")]
+              )
             ])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "h-list" }, [
-            _c(
-              "a",
-              { staticClass: "menu-portfolio", attrs: { href: "/gallery" } },
-              [_vm._v("ПОРТФОЛИО")]
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "h-list" }, [
-            _c(
-              "a",
-              { staticClass: "menu-company", attrs: { href: "/about-us" } },
-              [_vm._v("О КОМПАНИИ")]
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "h-list" }, [
-            _c(
-              "a",
-              { staticClass: "menu-contacts", attrs: { href: "/contacts" } },
-              [_vm._v("КОНТАКТЫ")]
-            )
           ])
         ])
-      ])
-    ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -38805,339 +38824,378 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row container-fluid no-gutters f-cont" }, [
-        _c("div", { staticClass: "col-4" }, [
-          _c(
-            "div",
-            {
-              staticClass: "flip-container",
-              attrs: { ontouchstart: "this.classList.toggle('hover');" }
-            },
-            [
-              _c("div", { staticClass: "flipper" }, [
-                _c("div", { staticClass: "front" }, [
-                  _c("img", {
-                    staticClass: "icons-front",
-                    attrs: { src: "image/info-block/letter!.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "back" }, [
-                  _c("p", { staticClass: "card-p" }, [
-                    _vm._v("Объемные буквы")
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/letter!.png", alt: "" }
+                    })
                   ]),
                   _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Объемные буквы можно по праву считать самым главным и ярким элементом наружной рекламы. Выразительные и заметные, буквы занимают свои позиции на козырьках и фасадах, могут существовать в качестве отдельного элемента на здании, размещаться на фасадах фирм и офисов."
-                    )
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Объемные буквы")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Объемные буквы можно по праву считать самым главным и ярким элементом наружной рекламы. Выразительные и заметные, буквы занимают свои позиции на козырьках и фасадах, могут существовать в качестве отдельного элемента на здании, размещаться на фасадах фирм и офисов."
+                      )
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ]),
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4" }, [
-          _c(
-            "div",
-            {
-              staticClass: "flip-container",
-              attrs: { ontouchstart: "this.classList.toggle('hover');" }
-            },
-            [
-              _c("div", { staticClass: "flipper" }, [
-                _c("div", { staticClass: "front" }, [
-                  _c("img", {
-                    staticClass: "icons-front",
-                    attrs: { src: "image/info-block/corob!.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "back" }, [
-                  _c("p", { staticClass: "card-p" }, [
-                    _vm._v("Световые короба")
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/corob!.png", alt: "" }
+                    })
                   ]),
                   _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Рекламные вывески информируют потенциального клиента о названии, профиле деятельности и услугах оказываемых вашей компанией. Рекламная вывеска – одна из составляющих частей имиджа, своеобразная визитка компании, которая должна привлекать клиентов и выгодно отличатся от конкурентов."
-                    )
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Световые короба")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Рекламные вывески информируют потенциального клиента о названии, профиле деятельности и услугах оказываемых вашей компанией. Рекламная вывеска – одна из составляющих частей имиджа, своеобразная визитка компании, которая должна привлекать клиентов и выгодно отличатся от конкурентов."
+                      )
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ]),
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4" }, [
-          _c(
-            "div",
-            {
-              staticClass: "flip-container",
-              attrs: { ontouchstart: "this.classList.toggle('hover');" }
-            },
-            [
-              _c("div", { staticClass: "flipper" }, [
-                _c("div", { staticClass: "front" }, [
-                  _c("img", {
-                    staticClass: "icons-front",
-                    attrs: { src: "image/info-block/auto!.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "back" }, [
-                  _c("p", { staticClass: "card-p" }, [
-                    _vm._v("Реклама на авто")
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/auto!.png", alt: "" }
+                    })
                   ]),
                   _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Брендирование автомобиля - это альтернативный, эффективный, а главное бюджетный вариант размещения рекламы на внешней поверхности корпоративного, личного или городского транспорта, для информирования населения о вашем бренде, товарах и услугах."
-                    )
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Реклама на авто")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Брендирование автомобиля - это альтернативный, эффективный, а главное бюджетный вариант размещения рекламы на внешней поверхности корпоративного, личного или городского транспорта, для информирования населения о вашем бренде, товарах и услугах."
+                      )
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ]),
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
         _c("hr"),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4" }, [
-          _c(
-            "div",
-            {
-              staticClass: "flip-container",
-              attrs: { ontouchstart: "this.classList.toggle('hover');" }
-            },
-            [
-              _c("div", { staticClass: "flipper" }, [
-                _c("div", { staticClass: "front" }, [
-                  _c("img", {
-                    staticClass: "icons-front",
-                    attrs: { src: "image/info-block/table!.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "back" }, [
-                  _c("p", { staticClass: "card-p" }, [
-                    _vm._v("Таблички и вывески")
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/table!.png", alt: "" }
+                    })
                   ]),
                   _vm._v(" "),
-                  _c("p", [
-                    _c("span", { staticStyle: { "font-weight": "bold" } }, [
-                      _vm._v("Вывеска из баннерной ткани")
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Таблички и вывески")
                     ]),
-                    _c("br"),
-                    _vm._v(
-                      "Если Вам нужна большая и не дорогая вывеска то баннер это оптимальный вариант."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _c("span", { staticStyle: { "font-weight": "bold" } }, [
-                      _vm._v("Вывеска на композитной основе")
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("span", { staticStyle: { "font-weight": "bold" } }, [
+                        _vm._v("Вывеска из баннерной ткани")
+                      ]),
+                      _c("br"),
+                      _vm._v(
+                        "Если Вам нужна большая и не дорогая вывеска то баннер это оптимальный вариант."
+                      )
                     ]),
-                    _c("br"),
-                    _vm._v(
-                      "Надежный и долговечный материал, стойкий к выцветанию и внешним воздействиям."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _c("span", { staticStyle: { "font-weight": "bold" } }, [
-                      _vm._v("Вывеска на ПВХ основе")
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("span", { staticStyle: { "font-weight": "bold" } }, [
+                        _vm._v("Вывеска на композитной основе")
+                      ]),
+                      _c("br"),
+                      _vm._v(
+                        "Надежный и долговечный материал, стойкий к выцветанию и внешним воздействиям."
+                      )
                     ]),
-                    _c("br"),
-                    _vm._v(
-                      "Это среднеценовой вариант для изготовления табличек. Его преимущества – это низкая стоимость и простота изготовления."
-                    )
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("span", { staticStyle: { "font-weight": "bold" } }, [
+                        _vm._v("Вывеска на ПВХ основе")
+                      ]),
+                      _c("br"),
+                      _vm._v(
+                        "Это среднеценовой вариант для изготовления табличек. Его преимущества – это низкая стоимость и простота изготовления."
+                      )
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ]),
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4" }, [
-          _c(
-            "div",
-            {
-              staticClass: "flip-container",
-              attrs: { ontouchstart: "this.classList.toggle('hover');" }
-            },
-            [
-              _c("div", { staticClass: "flipper" }, [
-                _c("div", { staticClass: "front" }, [
-                  _c("img", {
-                    staticClass: "icons-front",
-                    attrs: { src: "image/info-block/stend!.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "back" }, [
-                  _c("p", { staticClass: "card-p" }, [
-                    _vm._v("Стенды информации")
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/stend!.png", alt: "" }
+                    })
                   ]),
                   _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Информационные стенды служат для размещения важной и полезной информации в любых заведениях, подъездах домов, на улицах. Они помогают ознакомить клиентов с услугами, акциями, законодательными актами и др."
-                    )
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Стенды информации")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Информационные стенды служат для размещения важной и полезной информации в любых заведениях, подъездах домов, на улицах. Они помогают ознакомить клиентов с услугами, акциями, законодательными актами и др."
+                      )
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ]),
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4" }, [
-          _c(
-            "div",
-            {
-              staticClass: "flip-container",
-              attrs: { ontouchstart: "this.classList.toggle('hover');" }
-            },
-            [
-              _c("div", { staticClass: "flipper" }, [
-                _c("div", { staticClass: "front" }, [
-                  _c("img", {
-                    staticClass: "icons-front",
-                    attrs: { src: "image/info-block/interier!.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "back" }, [
-                  _c("p", { staticClass: "card-p" }, [
-                    _vm._v("Интерьерная реклама")
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/interier!.png", alt: "" }
+                    })
                   ]),
                   _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "В качестве интерьерной рекламы наиболее часто используются: внутренние вывески (могут быть световые); торговые стойки, ростовые фигуры; таблички и рисунки на напольном покрытии; объёмные надписи, а также объёмные буквы на держателях: лайтбоксы; POS материалы (наклейки, стикеры) и др."
-                    )
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Интерьерная реклама")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "В качестве интерьерной рекламы наиболее часто используются: внутренние вывески (могут быть световые); торговые стойки, ростовые фигуры; таблички и рисунки на напольном покрытии; объёмные надписи, а также объёмные буквы на держателях: лайтбоксы; POS материалы (наклейки, стикеры) и др."
+                      )
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ]),
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
         _c("hr"),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4" }, [
-          _c(
-            "div",
-            {
-              staticClass: "flip-container",
-              attrs: { ontouchstart: "this.classList.toggle('hover');" }
-            },
-            [
-              _c("div", { staticClass: "flipper" }, [
-                _c("div", { staticClass: "front" }, [
-                  _c("img", {
-                    staticClass: "icons-front",
-                    attrs: { src: "image/info-block/shtender!.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "back" }, [
-                  _c("p", { staticClass: "card-p" }, [_vm._v("Штендеры")]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Штендер – это устойчивая двусторонняя конструкция различного размера, имеющая четыре опорных ножки. Его используют для фиксации пластиковых или металлических листов, на которые помещена информация о товарах или услугах, а также контакты. Штендер является практичным инструментом наружной, а иногда и внутренней рекламы и часто размещается около входа в организацию или заведение."
-                    )
-                  ])
-                ])
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-4" }, [
-          _c(
-            "div",
-            {
-              staticClass: "flip-container",
-              attrs: { ontouchstart: "this.classList.toggle('hover');" }
-            },
-            [
-              _c("div", { staticClass: "flipper" }, [
-                _c("div", { staticClass: "front" }, [
-                  _c("img", {
-                    staticClass: "icons-front",
-                    attrs: { src: "image/info-block/pilon!.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "back" }, [
-                  _c("p", { staticClass: "card-p" }, [
-                    _vm._v("Указатели и пилоны")
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/shtender!.png", alt: "" }
+                    })
                   ]),
                   _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Рекламный пилон может использоваться как средство наружной рекламы, так и в качестве интерьерного рекламного решения.\r\n                            Они органично вписываются в городской интерьер и становятся его украшением, особенно в ночное время"
-                    ),
-                    _c("br"),
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [_vm._v("Штендеры")]),
                     _vm._v(" "),
-                    _c("span", { staticStyle: { "font-weight": "bold" } }, [
-                      _vm._v("- пилоны-навигаторы")
-                    ]),
-                    _vm._v(
-                      " выступают в роли указателей направления движения."
-                    ),
-                    _c("br"),
-                    _vm._v(" "),
-                    _c("span", { staticStyle: { "font-weight": "bold" } }, [
-                      _vm._v("- рекламные пилоны")
-                    ]),
-                    _vm._v(" имеют уникальный и яркий дизайн."),
-                    _c("br"),
-                    _vm._v(" "),
-                    _c("span", { staticStyle: { "font-weight": "bold" } }, [
-                      _vm._v("- интерьерные пилоны")
-                    ]),
-                    _vm._v(" используются для навигации в крупных объектах.")
+                    _c("p", [
+                      _vm._v(
+                        "Штендер – это устойчивая двусторонняя конструкция различного размера, имеющая четыре опорных ножки. Его используют для фиксации пластиковых или металлических листов, на которые помещена информация о товарах или услугах, а также контакты. Штендер является практичным инструментом наружной, а иногда и внутренней рекламы и часто размещается около входа в организацию или заведение."
+                      )
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ]),
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4" }, [
-          _c(
-            "div",
-            {
-              staticClass: "flip-container",
-              attrs: { ontouchstart: "this.classList.toggle('hover');" }
-            },
-            [
-              _c("div", { staticClass: "flipper" }, [
-                _c("div", { staticClass: "front" }, [
-                  _c("img", {
-                    staticClass: "icons-front",
-                    attrs: { src: "image/info-block/home-table!.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "back" }, [
-                  _c("p", { staticClass: "card-p" }, [
-                    _vm._v("Таблички на дом")
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/pilon!.png", alt: "" }
+                    })
                   ]),
                   _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Оригинальная и яркая табличка на дом с названием улицы – это превосходная возможность выделить ваше здание среди типовых. Таблички на забор помогут предупредить случайных прохожих какой у вас большой и злобный домашний питомец."
-                    )
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Указатели и пилоны")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Рекламный пилон может использоваться как средство наружной рекламы, так и в качестве интерьерного рекламного решения.\r\n                            Они органично вписываются в городской интерьер и становятся его украшением, особенно в ночное время"
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("span", { staticStyle: { "font-weight": "bold" } }, [
+                        _vm._v("- пилоны-навигаторы")
+                      ]),
+                      _vm._v(
+                        " выступают в роли указателей направления движения."
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("span", { staticStyle: { "font-weight": "bold" } }, [
+                        _vm._v("- рекламные пилоны")
+                      ]),
+                      _vm._v(" имеют уникальный и яркий дизайн."),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("span", { staticStyle: { "font-weight": "bold" } }, [
+                        _vm._v("- интерьерные пилоны")
+                      ]),
+                      _vm._v(" используются для навигации в крупных объектах.")
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ])
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: {
+                        src: "image/info-block/home-table!.png",
+                        alt: ""
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Таблички на дом")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Оригинальная и яркая табличка на дом с названием улицы – это превосходная возможность выделить ваше здание среди типовых. Таблички на забор помогут предупредить случайных прохожих какой у вас большой и злобный домашний питомец."
+                      )
+                    ])
+                  ])
+                ])
+              ]
+            )
+          ]
+        )
       ])
     ])
   }

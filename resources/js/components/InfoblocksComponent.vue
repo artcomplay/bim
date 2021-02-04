@@ -7,11 +7,11 @@
 
 
     <div class="row container-fluid no-gutters f-cont">
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <img class="icons-front" src="image/info-block/letter!.png" alt="">
+                        <img class="icons-grid" src="image/info-block/letter!.png" alt="">
                     </div>
                     <div class="back">
                         <p class="card-p">Объемные буквы</p>
@@ -20,11 +20,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <img class="icons-front" src="image/info-block/corob!.png" alt="">
+                        <img class="icons-grid" src="image/info-block/corob!.png" alt="">
                     </div>
                     <div class="back">
                         <p class="card-p">Световые короба</p>
@@ -33,11 +33,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <img class="icons-front" src="image/info-block/auto!.png" alt="">
+                        <img class="icons-grid" src="image/info-block/auto!.png" alt="">
                     </div>
                     <div class="back">
                         <p class="card-p">Реклама на авто</p>
@@ -47,11 +47,11 @@
             </div>
         </div>
         <hr>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <img class="icons-front" src="image/info-block/table!.png" alt="">
+                        <img class="icons-grid" src="image/info-block/table!.png" alt="">
                     </div>
                     <div class="back">
                         <p class="card-p">Таблички и вывески</p>
@@ -62,11 +62,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <img class="icons-front" src="image/info-block/stend!.png" alt="">
+                        <img class="icons-grid" src="image/info-block/stend!.png" alt="">
                     </div>
                     <div class="back">
                         <p class="card-p">Стенды информации</p>
@@ -75,11 +75,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <img class="icons-front" src="image/info-block/interier!.png" alt="">
+                        <img class="icons-grid" src="image/info-block/interier!.png" alt="">
                     </div>
                     <div class="back">
                         <p class="card-p">Интерьерная реклама</p>
@@ -89,11 +89,11 @@
             </div>
         </div>
         <hr>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <img class="icons-front" src="image/info-block/shtender!.png" alt="">
+                        <img class="icons-grid" src="image/info-block/shtender!.png" alt="">
                     </div>
                     <div class="back">
                         <p class="card-p">Штендеры</p>
@@ -102,11 +102,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <img class="icons-front" src="image/info-block/pilon!.png" alt="">
+                        <img class="icons-grid" src="image/info-block/pilon!.png" alt="">
                     </div>
                     <div class="back">
                         <p class="card-p">Указатели и пилоны</p>
@@ -120,11 +120,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <img class="icons-front" src="image/info-block/home-table!.png" alt="">
+                        <img class="icons-grid" src="image/info-block/home-table!.png" alt="">
                     </div>
                     <div class="back">
                         <p class="card-p">Таблички на дом</p>

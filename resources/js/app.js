@@ -60,7 +60,9 @@ for(i = 0; i <= elements.length; i++){
 
 var yandexApi = '<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4fde5c801d2864ec6bd4221b600bbb9d9e7bf8d40abe18f892ec6af316168591&amp;width=500&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>';
 
-$('#yandex-map').append(yandexApi);
+var yandexApiMobile = '<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4fde5c801d2864ec6bd4221b600bbb9d9e7bf8d40abe18f892ec6af316168591&amp;width=292&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>';
+
+
 
 
 var instagrammWidget = '<script src="https://apps.elfsight.com/p/platform.js" defer></script>';
@@ -82,12 +84,23 @@ if(screenWidth < 1024){
     $('.header-contacts').remove();*/
     $('.menu-horizontal ul li').css('display', 'grid');
     $('.header-content').css('height', 'auto');
-    let yandexMap = $('.yandex-map');
-    $('.yandex-map').remove();
-    let iconsFont = $('.icons-front');
-    $('.icons-front').remove();
+    /*let yandexMap = $('.yandex-map');
+    $('.yandex-map').remove();*/
     let leftAdres = $('.left-adres');
     $('.left-adres').remove();
-    
+    /*$('.icons-front').removeClass('icons-front').addClass('icons-mobile');*/
+    $('#left-space').css('padding-right', '15px');
+    $('#main-space').css('padding-left', '15px');
+    $('.bim').css('padding-top', '45px').css('margin-left', '90px').css('font-size', '25px');
+    $('.logo-img').css('margin-left', '0%').css('width', '95px'); 
+    $('.bim-info').css('margin-left', '32px');
+    $('hr').remove();
+    $('.vertical-menu').css('margin-bottom','20px');
+    $('#yandex-map').append(yandexApiMobile);
+    $('.yandex-map').css('position', 'relative').css('margin-top', '30px').css('margin-left', '15px').css('margin-right','15px');
+    $('.footer-menu').children('ul').css('display', 'grid');
+} else if(screenWidth > 1024){
+    $('#yandex-map').append(yandexApi);
     
 }
+

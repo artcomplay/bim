@@ -10,7 +10,7 @@ function appendText(images, htmlFirst, htmlSecond){
 }
 
 let images = ['santa.png', 'kia.png', 'savushkin.png', 'condor.png', 'kothoz.png', 'komunalnik.png', 'ritualgranit.png', 'bch.png', 'bugproekt.png', 'keramin.png', 'baranovich.png','volat.png', 'santarest.png', 'gulvern.png', 'baranovich.png', 'advokat.png', 'logosl.png', 'santarest.png'];
-let htmlFirst = '<div class="col-2 carousel-item display"><img src="image/partners/';
+let htmlFirst = '<div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 carousel-item display"><img src="image/partners/';
 let htmlSecond = '" alt=""></div>';
 appendText(images, htmlFirst, htmlSecond);
 let t = 0;
