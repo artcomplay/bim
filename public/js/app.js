@@ -2183,7 +2183,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component leftbar mounted.');
@@ -2327,6 +2326,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component workblock mounted.');
@@ -2372,6 +2378,9 @@ __webpack_require__.r(__webpack_exports__);
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
+var _require = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js"),
+    indexOf = _require.indexOf;
+
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js").default;
@@ -2417,6 +2426,27 @@ var yandexApi = '<script type="text/javascript" charset="utf-8" async src="https
 $('#yandex-map').append(yandexApi);
 var instagrammWidget = '<script src="https://apps.elfsight.com/p/platform.js" defer></script>';
 $('#instagramm').append(instagrammWidget);
+var screenWidth = $(window).width();
+console.log(screenWidth);
+
+if (screenWidth < 1024) {
+  /*let bim = $('.bim'); 
+  $('.bim').remove();
+  let bimInfo = $('.bim-info'); 
+  $('.bim-info').remove();
+  let menuHorizontal = $('.menu-horizontal'); 
+  $('.menu-horizontal').remove(); 
+  let headerContacnts = $('.header-contacts');
+  $('.header-contacts').remove();*/
+  $('.menu-horizontal ul li').css('display', 'grid');
+  $('.header-content').css('height', 'auto');
+  var yandexMap = $('.yandex-map');
+  $('.yandex-map').remove();
+  var iconsFont = $('.icons-front');
+  $('.icons-front').remove();
+  var leftAdres = $('.left-adres');
+  $('.left-adres').remove();
+}
 
 /***/ }),
 
@@ -38457,10 +38487,7 @@ var staticRenderFns = [
           _c("li", [
             _c(
               "a",
-              {
-                staticClass: "menu-footer-horizontal",
-                attrs: { href: "/home" }
-              },
+              { staticClass: "menu-footer-horizontal", attrs: { href: "/" } },
               [_vm._v("ГЛАВНАЯ")]
             )
           ]),
@@ -39248,11 +39275,7 @@ var staticRenderFns = [
                 })
               ]
             )
-          ]),
-          _vm._v(" "),
-          _c("div", {
-            staticClass: "elfsight-app-2e9a99e9-90c6-4571-8d27-e1bde002305d"
-          })
+          ])
         ]),
         _vm._v(" "),
         _c("div", { attrs: { id: "instagramm" } }),
@@ -39508,17 +39531,19 @@ var staticRenderFns = [
         "div",
         { staticClass: "col-sm-12 col-md-12 col-lg-4 col-xl-4 about-work" },
         [
-          _c("img", {
-            staticClass: "icons-work",
-            attrs: { src: "image/icons/time.png", alt: "" }
-          }),
-          _vm._v(" "),
-          _c("h6", [_vm._v("Соблюдение сроков")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Все работы проводятся по договору. Выполняем работы в сроки!"
-            )
+          _c("div", { staticClass: "awi" }, [
+            _c("img", {
+              staticClass: "icons-work",
+              attrs: { src: "image/icons/time.png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("h6", [_vm._v("Соблюдение сроков")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Все работы проводятся по договору. Выполняем работы в сроки!"
+              )
+            ])
           ])
         ]
       ),
@@ -39527,17 +39552,19 @@ var staticRenderFns = [
         "div",
         { staticClass: "col-sm-12 col-md-12 col-lg-4 col-xl-4 about-work" },
         [
-          _c("img", {
-            staticClass: "icons-work",
-            attrs: { src: "image/icons/lamp.png", alt: "" }
-          }),
-          _vm._v(" "),
-          _c("h6", [_vm._v("Креативные дизайнеры")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Которые помогают найти свой образ в насыщенном рынке товаров и услуг."
-            )
+          _c("div", { staticClass: "awi" }, [
+            _c("img", {
+              staticClass: "icons-work",
+              attrs: { src: "image/icons/lamp.png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("h6", [_vm._v("Креативные дизайнеры")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Которые помогают найти свой образ в насыщенном рынке товаров и услуг."
+              )
+            ])
           ])
         ]
       ),
@@ -39546,17 +39573,19 @@ var staticRenderFns = [
         "div",
         { staticClass: "col-sm-12 col-md-12 col-lg-4 col-xl-4 about-work" },
         [
-          _c("img", {
-            staticClass: "icons-work",
-            attrs: { src: "image/icons/puzzle.png", alt: "" }
-          }),
-          _vm._v(" "),
-          _c("h6", [_vm._v("Варианты реализации")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Предложим варианты реализации вывески под любой бюджет. Расскажем преимущества и минусы каждого варианта."
-            )
+          _c("div", { staticClass: "awi" }, [
+            _c("img", {
+              staticClass: "icons-work",
+              attrs: { src: "image/icons/puzzle.png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("h6", [_vm._v("Варианты реализации")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Предложим варианты реализации вывески под любой бюджет. Расскажем преимущества и минусы каждого варианта."
+              )
+            ])
           ])
         ]
       )

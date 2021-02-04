@@ -299,12 +299,15 @@ a.leave-request:hover{
 }
 
 .about-work{
-    background:  linear-gradient(to right, white, whitesmoke, rgb(238, 238, 238));
     height: 220px;
     border-radius: 3px;
-    margin-right: 7px;
-    margin-left: 7px;
-    flex: 31% !important;
+}
+
+.awi{
+    padding: 4px;
+    width: 98%;
+    background: linear-gradient(to right, white, whitesmoke, rgb(238, 238, 238));
+    height: 100%;
 }
 
 .image-time{

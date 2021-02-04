@@ -42,7 +42,7 @@
                 </div>
                 -->
 
-                <div class="elfsight-app-2e9a99e9-90c6-4571-8d27-e1bde002305d"></div>
+                <!--<div class="elfsight-app-2e9a99e9-90c6-4571-8d27-e1bde002305d"></div>-->
             </div>
 
             <div id="instagramm"></div>
@@ -60,7 +60,6 @@
                 </ul>
             </div>
         </div>
-
     </div>
 </template>
 

@@ -4,7 +4,7 @@
             <p>Copyright © 2020</p>
             <p>Nikolay Stepanov</p>
             <ul>
-                <li><a href="/home" class="menu-footer-horizontal">ГЛАВНАЯ</a></li>
+                <li><a href="/" class="menu-footer-horizontal">ГЛАВНАЯ</a></li>
                 <li><a href="/portfolio" class="menu-footer-horizontal">ПОРТФОЛИО</a></li>
                 <li><a href="/about-us" class="menu-footer-horizontal">О КОМПАНИИ</a></li>
                 <li><a href="/contacts" class="menu-footer-horizontal">КОНТАКТЫ</a></li>

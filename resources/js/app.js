@@ -4,6 +4,8 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
+const { indexOf } = require('lodash');
+
 require('./bootstrap');
 
 
@@ -64,3 +66,28 @@ $('#yandex-map').append(yandexApi);
 var instagrammWidget = '<script src="https://apps.elfsight.com/p/platform.js" defer></script>';
 
 $('#instagramm').append(instagrammWidget);
+
+let screenWidth = $(window).width();
+
+console.log(screenWidth);
+
+if(screenWidth < 1024){
+    /*let bim = $('.bim'); 
+    $('.bim').remove();
+    let bimInfo = $('.bim-info'); 
+    $('.bim-info').remove();
+    let menuHorizontal = $('.menu-horizontal'); 
+    $('.menu-horizontal').remove(); 
+    let headerContacnts = $('.header-contacts');
+    $('.header-contacts').remove();*/
+    $('.menu-horizontal ul li').css('display', 'grid');
+    $('.header-content').css('height', 'auto');
+    let yandexMap = $('.yandex-map');
+    $('.yandex-map').remove();
+    let iconsFont = $('.icons-front');
+    $('.icons-front').remove();
+    let leftAdres = $('.left-adres');
+    $('.left-adres').remove();
+    
+    
+}
