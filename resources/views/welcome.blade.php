@@ -14,7 +14,7 @@
 
 
     </head>
-    <body class="antialiased rect parallax">
+    <body class="antialiased rect parallax" style='overflow-x:hidden;'>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -31,7 +31,7 @@
             @endif
         </div>
 
-        <div class="bg">
+        <div class="bg" style="overflow-x:hidden;">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="head">
                 <header-component></header-component>
 
@@ -44,7 +44,7 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9" id="main-space" style="padding-left: 0px;">
 
                             <div class="container-fluid">
-                                <div class="market-info"><h1>Изготовление рекламных конструкций любой сложности</h1><img class="icons-front" src="image/icons/design-tools.png" alt=""></div>
+                                <div class="market-info" id="m-i-1"><h1>Изготовление рекламных конструкций любой сложности</h1></div>
                             </div>
 
                             <slider-component id="slider"></slider-component>

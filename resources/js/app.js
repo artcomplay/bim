@@ -4,7 +4,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-const { indexOf } = require('lodash');
+const { indexOf, functions } = require('lodash');
 
 require('./bootstrap');
 
@@ -48,12 +48,9 @@ var elements = ['#head', '#leftbar', '#slider','#infoblocks','#shemework','#work
 for(i = 0; i <= elements.length; i++){
     
     if ($(elements[i]).length){
-        console.log('Element ' + elements[i] + ' exist');
         const app = new Vue({
             el: elements[i], 
         });
-    } else {
-        console.log('Element ' + elements[i] + ' not exist');
     }
 }
 
@@ -71,29 +68,18 @@ $('#instagramm').append(instagrammWidget);
 
 let screenWidth = $(window).width();
 
-console.log(screenWidth);
+
+
 
 if(screenWidth < 1024){
-    /*let bim = $('.bim'); 
-    $('.bim').remove();
-    let bimInfo = $('.bim-info'); 
-    $('.bim-info').remove();
-    let menuHorizontal = $('.menu-horizontal'); 
-    $('.menu-horizontal').remove(); 
-    let headerContacnts = $('.header-contacts');
-    $('.header-contacts').remove();*/
     $('.menu-horizontal ul li').css('display', 'grid');
     $('.header-content').css('height', 'auto');
-    /*let yandexMap = $('.yandex-map');
-    $('.yandex-map').remove();*/
-    let leftAdres = $('.left-adres');
     $('.left-adres').remove();
-    /*$('.icons-front').removeClass('icons-front').addClass('icons-mobile');*/
     $('#left-space').css('padding-right', '15px');
     $('#main-space').css('padding-left', '15px');
-    $('.bim').css('padding-top', '45px').css('margin-left', '90px').css('font-size', '25px');
+    $('.bim').css('padding-top', '15%').css('margin-left', '24%').css('font-size', '22px');
     $('.logo-img').css('margin-left', '0%').css('width', '95px'); 
-    $('.bim-info').css('margin-left', '32px');
+    $('.bim-info').css('margin-left', '10%');
     $('hr').remove();
     $('.vertical-menu').css('margin-bottom','20px');
     $('#yandex-map').append(yandexApiMobile);
@@ -101,6 +87,8 @@ if(screenWidth < 1024){
     $('.footer-menu').children('ul').css('display', 'grid');
 } else if(screenWidth > 1024){
     $('#yandex-map').append(yandexApi);
-    
+    $('#m-i-1').append('<img class="icons-front" src="image/icons/design-tools.png" alt="">');
+    $('#m-i-2').append('<img class="icons-front" src="image/icons/plan-scheme.png" alt="">');
+    $('#m-i-3').append('<img class="icons-front" src="image/icons/partnership.png" alt="">');
 }
 

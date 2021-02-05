@@ -5,16 +5,19 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
                     <img src="image/logo.png" alt="БрестИнтерМаркет" class="logo-img">
                 </div>
-                    <h2 class="bim col-12">BrestInterMarket</h2>
-                    <h6 class="bim-info col-12">Изготовление и монтаж наружной рекламы</h6>
+                    <h2 class="bim col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">BrestInterMarket</h2>
+                    <h6 class="bim-info col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">Изготовление и монтаж наружной рекламы</h6>
                 <div class="col-12 menu-horizontal">
                     <ul>
                         <li class="h-list"><a href="/" class="menu-home">ГЛАВНАЯ</a></li>
                         <li class="h-list"><a href="/gallery" class="menu-portfolio">ПОРТФОЛИО</a></li>
                         <li class="h-list"><a href="/about-us" class="menu-company">О КОМПАНИИ</a></li>
                         <li class="h-list"><a href="/contacts" class="menu-contacts">КОНТАКТЫ</a></li>
+                        <li class="h-list"><a href="viber://chat?number=%2B375333405809"> <img class="viber-logo" src="/image/viber-logo.svg"></a></li>
                     </ul>
+                    
                 </div>
+                
             </div>
 
             <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 no-gutters container-fluid header-contacts">

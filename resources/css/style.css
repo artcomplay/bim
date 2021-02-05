@@ -6,8 +6,10 @@ body, html{
 
 hr{
     box-shadow: 0px 1px 1px grey;
-    background: gainsboro;
     width: 90%;
+    height: 0px;
+    background-color: #ffc054;
+    border-radius: 10px;
 }
 
 a:hover{
@@ -35,6 +37,11 @@ a:hover{
 
 .header-content{
     height: 200px;
+}
+
+.viber-logo{
+    height: 25px;
+    margin-left: 55px;
 }
 
 .bim{

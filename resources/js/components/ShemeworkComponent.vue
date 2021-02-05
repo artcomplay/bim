@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid scheme-work">
-        <div class="market-info"><h1>Схема работы</h1><img class="icons-front" src="image/icons/plan-scheme.png" alt=""></div>
+        <div class="market-info" id="m-i-2"><h1>Схема работы</h1></div>
         <div>
             <p><span class="point"></span>Оставляете заявку, на сайте или по телефону</p>
             <p><span class="point"></span>Менеджеры уточняют детали и оглашают цены</p>

@@ -1940,6 +1940,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component header mounted.');
@@ -2214,6 +2217,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component partners mounted.');
@@ -2379,7 +2384,8 @@ __webpack_require__.r(__webpack_exports__);
  * building robust, powerful web applications using Vue and Laravel.
  */
 var _require = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js"),
-    indexOf = _require.indexOf;
+    indexOf = _require.indexOf,
+    functions = _require.functions;
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
@@ -2413,12 +2419,9 @@ var elements = ['#head', '#leftbar', '#slider', '#infoblocks', '#shemework', '#w
 
 for (i = 0; i <= elements.length; i++) {
   if ($(elements[i]).length) {
-    console.log('Element ' + elements[i] + ' exist');
     var app = new Vue({
       el: elements[i]
     });
-  } else {
-    console.log('Element ' + elements[i] + ' not exist');
   }
 }
 
@@ -2427,31 +2430,16 @@ var yandexApiMobile = '<script type="text/javascript" charset="utf-8" async src=
 var instagrammWidget = '<script src="https://apps.elfsight.com/p/platform.js" defer></script>';
 $('#instagramm').append(instagrammWidget);
 var screenWidth = $(window).width();
-console.log(screenWidth);
 
 if (screenWidth < 1024) {
-  /*let bim = $('.bim'); 
-  $('.bim').remove();
-  let bimInfo = $('.bim-info'); 
-  $('.bim-info').remove();
-  let menuHorizontal = $('.menu-horizontal'); 
-  $('.menu-horizontal').remove(); 
-  let headerContacnts = $('.header-contacts');
-  $('.header-contacts').remove();*/
   $('.menu-horizontal ul li').css('display', 'grid');
   $('.header-content').css('height', 'auto');
-  /*let yandexMap = $('.yandex-map');
-  $('.yandex-map').remove();*/
-
-  var leftAdres = $('.left-adres');
   $('.left-adres').remove();
-  /*$('.icons-front').removeClass('icons-front').addClass('icons-mobile');*/
-
   $('#left-space').css('padding-right', '15px');
   $('#main-space').css('padding-left', '15px');
-  $('.bim').css('padding-top', '45px').css('margin-left', '90px').css('font-size', '25px');
+  $('.bim').css('padding-top', '15%').css('margin-left', '24%').css('font-size', '22px');
   $('.logo-img').css('margin-left', '0%').css('width', '95px');
-  $('.bim-info').css('margin-left', '32px');
+  $('.bim-info').css('margin-left', '10%');
   $('hr').remove();
   $('.vertical-menu').css('margin-bottom', '20px');
   $('#yandex-map').append(yandexApiMobile);
@@ -2459,6 +2447,9 @@ if (screenWidth < 1024) {
   $('.footer-menu').children('ul').css('display', 'grid');
 } else if (screenWidth > 1024) {
   $('#yandex-map').append(yandexApi);
+  $('#m-i-1').append('<img class="icons-front" src="image/icons/design-tools.png" alt="">');
+  $('#m-i-2').append('<img class="icons-front" src="image/icons/plan-scheme.png" alt="">');
+  $('#m-i-3').append('<img class="icons-front" src="image/icons/partnership.png" alt="">');
 }
 
 /***/ }),
@@ -38742,11 +38733,20 @@ var staticRenderFns = [
           ]
         ),
         _vm._v(" "),
-        _c("h2", { staticClass: "bim col-12" }, [_vm._v("BrestInterMarket")]),
+        _c(
+          "h2",
+          { staticClass: "bim col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" },
+          [_vm._v("BrestInterMarket")]
+        ),
         _vm._v(" "),
-        _c("h6", { staticClass: "bim-info col-12" }, [
-          _vm._v("Изготовление и монтаж наружной рекламы")
-        ]),
+        _c(
+          "h6",
+          {
+            staticClass:
+              "bim-info col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+          },
+          [_vm._v("Изготовление и монтаж наружной рекламы")]
+        ),
         _vm._v(" "),
         _c("div", { staticClass: "col-12 menu-horizontal" }, [
           _c("ul", [
@@ -38777,6 +38777,19 @@ var staticRenderFns = [
                 "a",
                 { staticClass: "menu-contacts", attrs: { href: "/contacts" } },
                 [_vm._v("КОНТАКТЫ")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "h-list" }, [
+              _c(
+                "a",
+                { attrs: { href: "viber://chat?number=%2B375333405809" } },
+                [
+                  _c("img", {
+                    staticClass: "viber-logo",
+                    attrs: { src: "/image/viber-logo.svg" }
+                  })
+                ]
               )
             ])
           ])
@@ -39390,12 +39403,8 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("div", { staticClass: "container-fluid scheme-work" }, [
-        _c("div", { staticClass: "market-info" }, [
-          _c("h1", [_vm._v("Наши заказчики")]),
-          _c("img", {
-            staticClass: "icons-front",
-            attrs: { src: "image/icons/partnership.png", alt: "" }
-          })
+        _c("div", { staticClass: "market-info", attrs: { id: "m-i-3" } }, [
+          _c("h1", [_vm._v("Наши заказчики")])
         ])
       ]),
       _vm._v(" "),
@@ -39440,12 +39449,8 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container-fluid scheme-work" }, [
-      _c("div", { staticClass: "market-info" }, [
-        _c("h1", [_vm._v("Схема работы")]),
-        _c("img", {
-          staticClass: "icons-front",
-          attrs: { src: "image/icons/plan-scheme.png", alt: "" }
-        })
+      _c("div", { staticClass: "market-info", attrs: { id: "m-i-2" } }, [
+        _c("h1", [_vm._v("Схема работы")])
       ]),
       _vm._v(" "),
       _c("div", [
