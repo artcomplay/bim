@@ -3,16 +3,16 @@
         <div class="ism-slider" data-play_type="loop" id="market-slider">
             <ol>
                 <li>
-                <img src="image/slides/city-691279_1280.jpg">
-                <div class="ism-caption ism-caption-0">My slide caption text</div>
+                <img src="image/slides/baner-3.jpg">
+                <!--<div class="ism-caption ism-caption-0">My slide caption text</div>-->
                 </li>
                 <li>
-                <img src="image/slides/sky-690293_1280.jpg">
-                <div class="ism-caption ism-caption-0">My slide caption text</div>
+                <img src="image/slides/baner-4.jpg">
+                <!--<div class="ism-caption ism-caption-0">My slide caption text</div>-->
                 </li>
                 <li>
-                <img src="image/slides/golden-gate-bridge-388917_1280.jpg">
-                <div class="ism-caption ism-caption-0">My slide caption text</div>
+                <img src="image/slides/baner-3.jpg">
+                <!--<div class="ism-caption ism-caption-0">My slide caption text</div>-->
                 </li>
             </ol>
         </div>

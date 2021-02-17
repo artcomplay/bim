@@ -39526,33 +39526,15 @@ var staticRenderFns = [
         [
           _c("ol", [
             _c("li", [
-              _c("img", {
-                attrs: { src: "image/slides/city-691279_1280.jpg" }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "ism-caption ism-caption-0" }, [
-                _vm._v("My slide caption text")
-              ])
+              _c("img", { attrs: { src: "image/slides/baner-3.jpg" } })
             ]),
             _vm._v(" "),
             _c("li", [
-              _c("img", { attrs: { src: "image/slides/sky-690293_1280.jpg" } }),
-              _vm._v(" "),
-              _c("div", { staticClass: "ism-caption ism-caption-0" }, [
-                _vm._v("My slide caption text")
-              ])
+              _c("img", { attrs: { src: "image/slides/baner-4.jpg" } })
             ]),
             _vm._v(" "),
             _c("li", [
-              _c("img", {
-                attrs: {
-                  src: "image/slides/golden-gate-bridge-388917_1280.jpg"
-                }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "ism-caption ism-caption-0" }, [
-                _vm._v("My slide caption text")
-              ])
+              _c("img", { attrs: { src: "image/slides/baner-3.jpg" } })
             ])
           ])
         ]
