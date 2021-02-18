@@ -365,14 +365,14 @@ a.leave-request:hover{
 .main-text-container p{
     font-size: 14px;
     border: 1px solid #d0d0d0;
-    padding: 15px;
+    padding: 25px;
     border-radius: 5px;
     background: linear-gradient(to right, white, whitesmoke, rgb(238, 238, 238));
     font-weight: 500;
     text-indent: 15px;
     text-align: left;
     line-height: 1.7em;
-    text-align: center;
+    /*text-align: center;*/
     cursor: pointer;
 }
 
@@ -688,6 +688,18 @@ td span{
     font: normal 10px Arial;
     color: #000000;
     margin-left: 0px;
+}
+
+.desc-work{
+    padding: 6%;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.desc-work-title{
+    text-align: center;
+    font-weight: 700;
 }
 
 

@@ -6,13 +6,13 @@
             </div>
             <div class="vertical-menu">
                 <ul class="menu-list">
-                    <li class="list-item"><a href="">Объемные буквы</a></li>
-                    <li class="list-item"><a href="">Световые короба</a></li>
-                    <li class="list-item"><a href="">Реклама на авто</a></li>
-                    <li class="list-item"><a href="">Таблички и вывески</a></li>
-                    <li class="list-item"><a href="">Стенды информации</a></li>
-                    <li class="list-item"><a href="">Интерьерная реклама</a></li>
-                    <li class="list-item"><a href="">Штендеры</a></li>
+                    <li class="list-item"><a href="/объемные_буквы">Объемные буквы</a></li>
+                    <li class="list-item"><a href="/световые_короба">Световые короба</a></li>
+                    <li class="list-item"><a href="/реклама_на_авто">Реклама на авто</a></li>
+                    <li class="list-item"><a href="/таблички_и_вывески">Таблички и вывески</a></li>
+                    <li class="list-item"><a href="/cтенды_информации">Стенды информации</a></li>
+                    <li class="list-item"><a href="/интерьерная_реклама">Интерьерная реклама</a></li>
+                    <li class="list-item"><a href="/штендеры">Штендеры</a></li>
                     <li class="list-item"><a href="">Оклейка витрин и окон</a></li>
                     <li class="list-item"><a href="">Указатели и пилоны</a></li>
                     <li class="list-item"><a href="">Таблички на дом</a></li>

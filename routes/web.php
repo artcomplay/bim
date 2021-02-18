@@ -22,6 +22,36 @@ Route::get('/home', function () {
     return view('welcome');
 });
 
+Route::get('/объемные_буквы', function () {
+    return view('large_letters');
+});
+
+Route::get('/световые_короба', function () {
+    return view('light_boxes');
+});
+
+Route::get('/реклама_на_авто', function () {
+    return view('advertising_cars');
+});
+
+Route::get('/таблички_и_вывески', function () {
+    return view('signs_signs');
+});
+
+Route::get('/cтенды_информации', function () {
+    return view('information_stands');
+});
+
+Route::get('/интерьерная_реклама', function () {
+    return view('interior_advertising');
+});
+
+Route::get('/штендеры', function () {
+    return view('pillars');
+});
+
+
+
 Route::get('gallery', [GalleryController::class, 'get_photo_from_instagramm']);
 
 

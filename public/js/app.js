@@ -39251,31 +39251,43 @@ var staticRenderFns = [
         _c("div", { staticClass: "vertical-menu" }, [
           _c("ul", { staticClass: "menu-list" }, [
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [_vm._v("Объемные буквы")])
+              _c("a", { attrs: { href: "/объемные_буквы" } }, [
+                _vm._v("Объемные буквы")
+              ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [_vm._v("Световые короба")])
+              _c("a", { attrs: { href: "/световые_короба" } }, [
+                _vm._v("Световые короба")
+              ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [_vm._v("Реклама на авто")])
+              _c("a", { attrs: { href: "/реклама_на_авто" } }, [
+                _vm._v("Реклама на авто")
+              ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [_vm._v("Таблички и вывески")])
+              _c("a", { attrs: { href: "/таблички_и_вывески" } }, [
+                _vm._v("Таблички и вывески")
+              ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [_vm._v("Стенды информации")])
+              _c("a", { attrs: { href: "/cтенды_информации" } }, [
+                _vm._v("Стенды информации")
+              ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [_vm._v("Интерьерная реклама")])
+              _c("a", { attrs: { href: "/интерьерная_реклама" } }, [
+                _vm._v("Интерьерная реклама")
+              ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [_vm._v("Штендеры")])
+              _c("a", { attrs: { href: "/штендеры" } }, [_vm._v("Штендеры")])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
