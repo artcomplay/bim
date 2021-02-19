@@ -50,6 +50,25 @@ Route::get('/штендеры', function () {
     return view('pillars');
 });
 
+Route::get('/оклейка_витрин', function () {
+    return view('window_display');
+});
+
+Route::get('/указатели_пилоны', function () {
+    return view('pointers_pylons');
+});
+
+Route::get('/таблички_на_дом', function () {
+    return view('signs_house');
+});
+
+Route::get('/широкоформатная_печать', function () {
+    return view('large_printing');
+});
+
+Route::get('/бегущая_строка', function () {
+    return view('running_line');
+});
 
 
 Route::get('gallery', [GalleryController::class, 'get_photo_from_instagramm']);

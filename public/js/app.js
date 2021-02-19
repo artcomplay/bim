@@ -2102,6 +2102,47 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component infoblocks mounted.');
@@ -2121,6 +2162,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
+//
 //
 //
 //
@@ -39200,7 +39242,117 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "Оригинальная и яркая табличка на дом с названием улицы – это превосходная возможность выделить ваше здание среди типовых. Таблички на забор помогут предупредить случайных прохожих какой у вас большой и злобный домашний питомец."
+                        "Оригинальная и яркая табличка на дом с названием улицы – это превосходная возможность выделить ваше здание среди типовых."
+                      )
+                    ])
+                  ])
+                ])
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c("hr"),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/window!.png", alt: "" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Оклейка витрин и окон")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Реклама на окнах - это не просто информация, доступная для проходящих и проезжающих мимо партнёров и клиентов. Оклейка виниловой плёнкой витрин является ярким, эффективным средством привлечения внимания."
+                      )
+                    ])
+                  ])
+                ])
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/line!.png", alt: "" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Бегущая строка")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Бегущая строка — электронное устройство, рабочее полотно которого выполнено из светодиодов.\r\n                                 Предназначена для трансляции текста и простых картинок (как статичных так и анимированных)."
+                      )
+                    ])
+                  ])
+                ])
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "flip-container",
+                attrs: { ontouchstart: "this.classList.toggle('hover');" }
+              },
+              [
+                _c("div", { staticClass: "flipper" }, [
+                  _c("div", { staticClass: "front" }, [
+                    _c("img", {
+                      staticClass: "icons-grid",
+                      attrs: { src: "image/info-block/print!.png", alt: "" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "back" }, [
+                    _c("p", { staticClass: "card-p" }, [
+                      _vm._v("Широкоформатная печать")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Под широкоформатной печатью понимают изготовление полиграфии больших размеров, высокого качества единым полотном."
                       )
                     ])
                   ])
@@ -39291,22 +39443,32 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [
+              _c("a", { attrs: { href: "/оклейка_витрин" } }, [
                 _vm._v("Оклейка витрин и окон")
               ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [_vm._v("Указатели и пилоны")])
+              _c("a", { attrs: { href: "/указатели_пилоны" } }, [
+                _vm._v("Указатели и пилоны")
+              ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [_vm._v("Таблички на дом")])
+              _c("a", { attrs: { href: "/таблички_на_дом" } }, [
+                _vm._v("Таблички на дом")
+              ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "list-item" }, [
-              _c("a", { attrs: { href: "" } }, [
+              _c("a", { attrs: { href: "/широкоформатная_печать" } }, [
                 _vm._v("Широкоформатная  печать")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "/бегущая_строка" } }, [
+                _vm._v("Бегущая строка")
               ])
             ])
           ])

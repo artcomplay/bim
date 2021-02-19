@@ -13,10 +13,11 @@
                     <li class="list-item"><a href="/cтенды_информации">Стенды информации</a></li>
                     <li class="list-item"><a href="/интерьерная_реклама">Интерьерная реклама</a></li>
                     <li class="list-item"><a href="/штендеры">Штендеры</a></li>
-                    <li class="list-item"><a href="">Оклейка витрин и окон</a></li>
-                    <li class="list-item"><a href="">Указатели и пилоны</a></li>
-                    <li class="list-item"><a href="">Таблички на дом</a></li>
-                    <li class="list-item"><a href="">Широкоформатная  печать</a></li>
+                    <li class="list-item"><a href="/оклейка_витрин">Оклейка витрин и окон</a></li>
+                    <li class="list-item"><a href="/указатели_пилоны">Указатели и пилоны</a></li>
+                    <li class="list-item"><a href="/таблички_на_дом">Таблички на дом</a></li>
+                    <li class="list-item"><a href="/широкоформатная_печать">Широкоформатная  печать</a></li>
+                    <li class="list-item"><a href="/бегущая_строка">Бегущая строка</a></li>
                 </ul>
             </div>
 

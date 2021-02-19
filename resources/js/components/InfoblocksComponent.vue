@@ -128,7 +128,48 @@
                     </div>
                     <div class="back">
                         <p class="card-p">Таблички на дом</p>
-                        <p>Оригинальная и яркая табличка на дом с названием улицы – это превосходная возможность выделить ваше здание среди типовых. Таблички на забор помогут предупредить случайных прохожих какой у вас большой и злобный домашний питомец.</p>
+                        <p>Оригинальная и яркая табличка на дом с названием улицы – это превосходная возможность выделить ваше здание среди типовых.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="icons-grid" src="image/info-block/window!.png" alt="">
+                    </div>
+                    <div class="back">
+                        <p class="card-p">Оклейка витрин и окон</p>
+                        <p>Реклама на окнах - это не просто информация, доступная для проходящих и проезжающих мимо партнёров и клиентов. Оклейка виниловой плёнкой витрин является ярким, эффективным средством привлечения внимания.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="icons-grid" src="image/info-block/line!.png" alt="">
+                    </div>
+                    <div class="back">
+                        <p class="card-p">Бегущая строка</p>
+                        <p>Бегущая строка — электронное устройство, рабочее полотно которого выполнено из светодиодов.
+                                 Предназначена для трансляции текста и простых картинок (как статичных так и анимированных).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="icons-grid" src="image/info-block/print!.png" alt="">
+                    </div>
+                    <div class="back">
+                        <p class="card-p">Широкоформатная печать</p>
+                        <p>Под широкоформатной печатью понимают изготовление полиграфии больших размеров, высокого качества единым полотном.</p>
                     </div>
                 </div>
             </div>
