@@ -70,6 +70,10 @@ Route::get('/бегущая_строка', function () {
     return view('running_line');
 });
 
+Route::get('/эксклюзивное_освещение', function () {
+    return view('exclusive_lighting');
+});
+
 
 Route::get('gallery', [GalleryController::class, 'get_photo_from_instagramm']);
 

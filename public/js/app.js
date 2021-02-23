@@ -2228,6 +2228,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component leftbar mounted.');
@@ -39469,6 +39470,12 @@ var staticRenderFns = [
             _c("li", { staticClass: "list-item" }, [
               _c("a", { attrs: { href: "/бегущая_строка" } }, [
                 _vm._v("Бегущая строка")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-item" }, [
+              _c("a", { attrs: { href: "/эксклюзивное_освещение" } }, [
+                _vm._v("Эксклюзивное освещение")
               ])
             ])
           ])

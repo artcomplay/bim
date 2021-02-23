@@ -702,3 +702,9 @@ td span{
     font-weight: 700;
 }
 
+.description-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
