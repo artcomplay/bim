@@ -2488,6 +2488,7 @@ if (screenWidth < 1024) {
   $('#yandex-map').append(yandexApiMobile);
   $('.yandex-map').css('position', 'relative').css('margin-top', '30px').css('margin-left', '15px').css('margin-right', '15px');
   $('.footer-menu').children('ul').css('display', 'grid');
+  $('.market-info').css('background', 'linear-gradient(to right, #ffe81a, #ffd921, rgb(255 202 38)');
 } else if (screenWidth > 1024) {
   $('#yandex-map').append(yandexApi);
   $('#m-i-1').append('<img class="icons-front" src="image/icons/design-tools.png" alt="">');
@@ -39634,34 +39635,64 @@ var staticRenderFns = [
         _c("h1", [_vm._v("Схема работы")])
       ]),
       _vm._v(" "),
-      _c("div", [
+      _c("div", { staticClass: "mt-container" }, [
         _c("p", [
-          _c("span", { staticClass: "point" }),
+          _c("span", [
+            _c("img", {
+              staticClass: "point",
+              attrs: { src: "image/icons/icon1.png", alt: "" }
+            })
+          ]),
           _vm._v("Оставляете заявку, на сайте или по телефону")
         ]),
         _vm._v(" "),
         _c("p", [
-          _c("span", { staticClass: "point" }),
+          _c("span", [
+            _c("img", {
+              staticClass: "point",
+              attrs: { src: "image/icons/icon2.png", alt: "" }
+            })
+          ]),
           _vm._v("Менеджеры уточняют детали и оглашают цены")
         ]),
         _vm._v(" "),
         _c("p", [
-          _c("span", { staticClass: "point" }),
+          _c("span", [
+            _c("img", {
+              staticClass: "point",
+              attrs: { src: "image/icons/icon3.png", alt: "" }
+            })
+          ]),
           _vm._v("Мы создаем дизайн-проект вашей рекламы")
         ]),
         _vm._v(" "),
         _c("p", [
-          _c("span", { staticClass: "point" }),
+          _c("span", [
+            _c("img", {
+              staticClass: "point",
+              attrs: { src: "image/icons/icon4.png", alt: "" }
+            })
+          ]),
           _vm._v("Вы утверждаете эскиз, заключаем договор")
         ]),
         _vm._v(" "),
         _c("p", [
-          _c("span", { staticClass: "point" }),
+          _c("span", [
+            _c("img", {
+              staticClass: "point",
+              attrs: { src: "image/icons/icon5.png", alt: "" }
+            })
+          ]),
           _vm._v("Изготавливаем и монтируем конструкцию")
         ]),
         _vm._v(" "),
         _c("p", [
-          _c("span", { staticClass: "point" }),
+          _c("span", [
+            _c("img", {
+              staticClass: "point",
+              attrs: { src: "image/icons/icon6.png", alt: "" }
+            })
+          ]),
           _vm._v("Ваша реклама работает и привлекает новых клиентов")
         ])
       ])

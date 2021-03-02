@@ -85,6 +85,7 @@ if(screenWidth < 1024){
     $('#yandex-map').append(yandexApiMobile);
     $('.yandex-map').css('position', 'relative').css('margin-top', '30px').css('margin-left', '15px').css('margin-right','15px');
     $('.footer-menu').children('ul').css('display', 'grid');
+    $('.market-info').css('background', 'linear-gradient(to right, #ffe81a, #ffd921, rgb(255 202 38)');
 } else if(screenWidth > 1024){
     $('#yandex-map').append(yandexApi);
     $('#m-i-1').append('<img class="icons-front" src="image/icons/design-tools.png" alt="">');
