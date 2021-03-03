@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="yandex-verification" content="b577f299055f54fe" />
-        
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <meta name="yandex-verification" content="b577f299055f54fe" />

@@ -39485,7 +39485,7 @@ var staticRenderFns = [
         _c("hr"),
         _vm._v(" "),
         _c("div", { staticClass: "container-fluid leave-request" }, [
-          _c("a", { attrs: { href: "/leave-request" } }, [
+          _c("a", { attrs: { href: "/оставить_заявку" } }, [
             _vm._v("Оставить заявку")
           ])
         ]),

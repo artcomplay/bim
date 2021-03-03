@@ -24,7 +24,7 @@
 
             <hr>
             <div class="container-fluid leave-request">
-                <a href="/leave-request">Оставить заявку</a>
+                <a href="/оставить_заявку">Оставить заявку</a>
             </div>
 
             <div class="left-center container-fluid nu-gutters">

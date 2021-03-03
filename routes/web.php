@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -74,6 +75,11 @@ Route::get('/эксклюзивное_освещение', function () {
     return view('exclusive_lighting');
 });
 
+Route::get('/оставить_заявку', function () {
+    return view('leave_request');
+});
+
+Route::post('/оставить_заявку', [ContactController::class, 'leave_request'])->name('contact-form');
 
 Route::get('gallery', [GalleryController::class, 'get_photo_from_instagramm']);
 

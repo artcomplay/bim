@@ -716,3 +716,15 @@ td span{
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
+.inp-form{
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px grey inset;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.lab-form{
+    font-family: 'Montserrat', sans-serif;
+}
