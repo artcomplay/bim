@@ -27,7 +27,8 @@ class ContactRequest extends FormRequest
             'name' => 'required|min:2|max:50',
             'email' => 'required|email:rfc,dns',
             'phone' => 'required|min:1|max:15',
-            'message' => 'required|min:1|max:300'
+            'message' => 'required|min:1|max:300',
+            'check' => 'required'
         ];
     }
 
@@ -37,6 +38,7 @@ class ContactRequest extends FormRequest
             'email.required' => 'Поле Email должно быть заполнено!',
             'phone.required' => 'Поле Телефон должно быть заполнено!',
             'message.required' => 'Поле Текст сообщения должно быть заполнено!',
+            'check.required' => 'Необходимо ознакомится и принять "Соглашением на обработку персональных данных."',
         ];
     }
 }

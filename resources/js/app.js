@@ -69,6 +69,25 @@ $('#instagramm').append(instagrammWidget);
 let screenWidth = $(window).width();
 
 
+var agreement = document.getElementById('agreement');
+
+if(agreement != null){
+    agreement.onclick = function( event ) {
+
+        event.preventDefault();
+        var styleAgree = $('#text-block').css('display');
+        $('#text-block').css('margin-right', '0px');
+        if(styleAgree == 'none'){
+            $('#text-block').css('display', 'block');
+            $('#text-block').css('margin-top', '20px');
+        } else if(styleAgree == 'block'){
+            $('#text-block').css('display', 'none');
+        }
+    
+        return false;
+    }
+}
+
 
 
 if(screenWidth < 1024){

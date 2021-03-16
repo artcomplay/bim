@@ -139,7 +139,7 @@ a:hover{
 }
 
 .menu-horizontal, .menu-horizontal-f{
-    padding-top: 18px;
+    padding-top: 30px;
     transition: 1s;
 }
 
@@ -727,4 +727,66 @@ td span{
 
 .lab-form{
     font-family: 'Montserrat', sans-serif;
+}
+
+.btn-send{
+    padding: 7px 50px;
+    box-shadow: 0px 1px 3px grey;
+    margin-top: 15px;
+}
+
+.mt-container h3{
+    display: inline-block;
+}
+
+.mt-container input{
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.mt-container span{
+    font-size: 10px;
+}
+
+.cursive{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.mt-container p{
+    transition: 0.6s;
+}
+
+.alert-success{
+    position: absolute;
+    padding: 11px 100px;
+}
+
+.agree-p{
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.agree-p a{
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.mt-cont p{
+    font-size: 12px;
+    border: 1px solid #d0d0d0;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, white, whitesmoke, rgb(238, 238, 238));
+    font-weight: 500;
+    text-indent: 15px;
+    text-align: left;
+    line-height: 1.7em;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px #80808063;
+    text-align: center;
+    margin-bottom: 40px;
 }

@@ -2473,6 +2473,24 @@ var yandexApiMobile = '<script type="text/javascript" charset="utf-8" async src=
 var instagrammWidget = '<script src="https://apps.elfsight.com/p/platform.js" defer></script>';
 $('#instagramm').append(instagrammWidget);
 var screenWidth = $(window).width();
+var agreement = document.getElementById('agreement');
+
+if (agreement != null) {
+  agreement.onclick = function (event) {
+    event.preventDefault();
+    var styleAgree = $('#text-block').css('display');
+    $('#text-block').css('margin-right', '0px');
+
+    if (styleAgree == 'none') {
+      $('#text-block').css('display', 'block');
+      $('#text-block').css('margin-top', '20px');
+    } else if (styleAgree == 'block') {
+      $('#text-block').css('display', 'none');
+    }
+
+    return false;
+  };
+}
 
 if (screenWidth < 1024) {
   $('.menu-horizontal ul li').css('display', 'grid');
