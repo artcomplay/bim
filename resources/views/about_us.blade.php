@@ -61,10 +61,45 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9" id="main-space" style="padding-left: 0px;">
 
                             <div class="container-fluid">
-                                <div class="market-info" id="m-i-1"><h1>Изготовление рекламных конструкций любой сложности</h1></div>
+                                <div class="market-info" id="m-i-1"><h1>О компании БрестИнтерМаркет</h1></div>
                             </div>
 
-                            
+
+                            <div class="ab-us">
+                                <h1>РЕКЛАМНО - ПРОИЗВОДСТВЕННАЯ КОМПАНИЯ ООО "БРЕСТИНТЕРМАРКЕТ"</h1>
+                                <p>
+                                    Наша компания рада предложить полный спектр услуг по внешнему оформлению магазина и наружных витрин любого формата и сложности. 
+                                </p>
+                                <p>
+                                    Мы более 20 лет на рынке и за это время заслужили хорошую репутацию и доверие наших клиентов. Имея богатый опыт работы, нестандартный творческий подход и массу креатива, наши специалисты предлагают заказчикам необычные и эффектные идеи по созданию рекламных конструкций.
+                                </p>
+                                <p>
+                                Обращаясь в ООО «БрестИнтерМаркет», вы попадаете в надежную компанию, где трудятся профессионалы, обладающие многолетним опытом работы, которые учитывают пожелание клиентов и воплощают самые оригинальные идеи.
+                                </p>
+                            </div>
+                            <div class="ab-us">
+                                <h5>РЕКВИЗИТЫ</h5>
+
+                                <div class="row ">
+                                    <div class="col-sm-12">
+
+                                    </div>
+                                    <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 no-gutters">Наименование ЮЛ</div><div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 no-gutters">Общество с ограниченной ответственностью "БрестИнтерМаркет"</div>
+                                    <hr>
+                                    <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 no-gutters">УНП</div><div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 no-gutters">291476438</div>
+                                    <hr>
+                                    <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 no-gutters">Юридический адрес</div><div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 no-gutters">Брестская обл., г. Брест, ул. Карла Маркса, д. 37</div>
+                                    <hr>
+                                </div>
+                                <br>
+                                <h5>ВИДЫ ДЕЯТЕЛЬНОСТИ</h5>
+
+                                <div class="row">
+                                    <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 no-gutters">Код основного вида деятельности по ОКЭД</div><div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 no-gutters">73110</div>
+                                    <hr>
+                                    <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 no-gutters">Наименование основного вида деятельности по ОКЭД</div><div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 no-gutters">Деятельность по созданию рекламы</div>
+                                </div>
+                            </div>                            
 
                             
 

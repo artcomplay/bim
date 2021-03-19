@@ -79,6 +79,14 @@ Route::get('/оставить_заявку', function () {
     return view('leave_request');
 });
 
+Route::get('/контакты', function () {
+    return view('contacts');
+});
+
+Route::get('/о_компании', function () {
+    return view('about_us');
+});
+
 Route::post('/оставить_заявку', [ContactController::class, 'leave_request'])->name('contact-form');
 
 Route::get('gallery', [GalleryController::class, 'get_photo_from_instagramm']);

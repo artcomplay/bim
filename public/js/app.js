@@ -38829,7 +38829,7 @@ var staticRenderFns = [
             _c("li", { staticClass: "h-list" }, [
               _c(
                 "a",
-                { staticClass: "menu-company", attrs: { href: "/about-us" } },
+                { staticClass: "menu-company", attrs: { href: "/о_компании" } },
                 [_vm._v("О КОМПАНИИ")]
               )
             ]),
@@ -38837,7 +38837,7 @@ var staticRenderFns = [
             _c("li", { staticClass: "h-list" }, [
               _c(
                 "a",
-                { staticClass: "menu-contacts", attrs: { href: "/contacts" } },
+                { staticClass: "menu-contacts", attrs: { href: "/контакты" } },
                 [_vm._v("КОНТАКТЫ")]
               )
             ]),

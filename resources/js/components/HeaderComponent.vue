@@ -11,8 +11,8 @@
                     <ul>
                         <li class="h-list"><a href="/" class="menu-home">ГЛАВНАЯ</a></li>
                         <li class="h-list"><a href="/gallery" class="menu-portfolio">ПОРТФОЛИО</a></li>
-                        <li class="h-list"><a href="/about-us" class="menu-company">О КОМПАНИИ</a></li>
-                        <li class="h-list"><a href="/contacts" class="menu-contacts">КОНТАКТЫ</a></li>
+                        <li class="h-list"><a href="/о_компании" class="menu-company">О КОМПАНИИ</a></li>
+                        <li class="h-list"><a href="/контакты" class="menu-contacts">КОНТАКТЫ</a></li>
                         <li class="h-list"><a href="viber://chat?number=%2B375333405809"> <img class="viber-logo" src="/image/viber-logo.svg"></a></li>
                     </ul>
                     
