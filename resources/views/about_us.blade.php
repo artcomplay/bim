@@ -7,6 +7,7 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <meta name="description" content="Наши специалисты предлагают заказчикам необычные и эффектные идеи по созданию рекламных конструкций." />
         <meta name="yandex-verification" content="b577f299055f54fe" />
         <meta name="google-site-verification" content="faOtvAJTY70V4h8_D3eoM1nYlwIYnVNOHgiBrjFB2tA" />
         <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Italianno&family=Merienda+One&display=swap" rel="stylesheet">
@@ -74,7 +75,7 @@
                                     Мы более 20 лет на рынке и за это время заслужили хорошую репутацию и доверие наших клиентов. Имея богатый опыт работы, нестандартный творческий подход и массу креатива, наши специалисты предлагают заказчикам необычные и эффектные идеи по созданию рекламных конструкций.
                                 </p>
                                 <p>
-                                Обращаясь в ООО «БрестИнтерМаркет», вы попадаете в надежную компанию, где трудятся профессионалы, обладающие многолетним опытом работы, которые учитывают пожелание клиентов и воплощают самые оригинальные идеи.
+                                    Обращаясь в ООО «БрестИнтерМаркет», вы попадаете в надежную компанию, где трудятся профессионалы, обладающие многолетним опытом работы, которые учитывают пожелание клиентов и воплощают самые оригинальные идеи.
                                 </p>
                             </div>
                             <div class="ab-us">

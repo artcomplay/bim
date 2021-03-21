@@ -7,6 +7,7 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <meta name="description" content="Мы предоставляем комплексные услуги по изготовлению, дизайну, монтажу и согласованию всех видов наружной рекламы, включая нестандартные и сложные конструкции." />
         <meta name="yandex-verification" content="b577f299055f54fe" />
         <meta name="google-site-verification" content="faOtvAJTY70V4h8_D3eoM1nYlwIYnVNOHgiBrjFB2tA" />
         <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Italianno&family=Merienda+One&display=swap" rel="stylesheet">

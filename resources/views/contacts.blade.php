@@ -7,6 +7,7 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <meta name="description" content="Адрес: г. Брест,ул. Карла Маркса 37 | Email: reklama_bim@tut.by | Моб. 375 (33) 340-58-09" />
         <meta name="yandex-verification" content="b577f299055f54fe" />
         <meta name="google-site-verification" content="faOtvAJTY70V4h8_D3eoM1nYlwIYnVNOHgiBrjFB2tA" />
         <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Italianno&family=Merienda+One&display=swap" rel="stylesheet">
@@ -64,6 +65,20 @@
                                 <div class="market-info" id="m-i-1"><h1>Изготовление рекламных конструкций любой сложности</h1></div>
                             </div>
 
+                            <div class="row ab-us">
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                                    <img style="width: 250px;" src="image/XXXL.png" alt="">    
+                                </div>
+                                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                                    <div class="">    
+                                        <H1>КОНТАКТЫ</H1>
+                                        <p>Адрес: г. Брест,ул. Карла Маркса 37</p>
+                                        <p>Email: reklama_bim@tut.by</p>
+                                        <p>Моб. 375 (33) 340-58-09</p>
+                                        <p>Тел. 8 (0162) 21-65-09</p>
+                                    </div>   
+                                </div>
+                            </div>
                             
 
                             
@@ -72,8 +87,6 @@
 
 
                             
-
-                            <partners-component id="partners"></partners-component>
 
                             <yandex-component id="yandex"></yandex-component>
                         </div>

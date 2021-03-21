@@ -6,6 +6,7 @@
         <meta name="yandex-verification" content="b577f299055f54fe" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <meta name="description" content="Указатели и пилоны" />
         <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Italianno&family=Merienda+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/app.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
